@@ -59,7 +59,7 @@ const RecruitersPage: NextPage<IProps> = ({ markdown, references, salary }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Recruiter Information about Jacob Herper"
+				title="Recruiter Information about Aman Ullah"
 				description="Thank you for your interest in me for software engineering roles you are hiring for."
 			/>
 			<Container>

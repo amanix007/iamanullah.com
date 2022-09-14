@@ -23,7 +23,7 @@ const CaseStudy = ({
 
 	return (
 		<article className="mt-24 first-of-type:mt-0 transition md:hover:scale-[1.01]">
-			<Link href={`/case-studies/${slug}`}>
+			<Link href={`/projects/${slug}`}>
 				<a className="group">
 					<Box>
 						<div

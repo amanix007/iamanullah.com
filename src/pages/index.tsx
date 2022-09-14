@@ -28,15 +28,16 @@ const IndexPage = () => {
 		'Gatsby',
 		'Svelte',
 	];
+	let caseStudies = [];
 
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Senior Software Engineer and Consultant – Jacob Herper"
+				title="Senior Software Engineer and Consultant – Aman Ullah"
 				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
 				keywords={[
 					'Software Engineer',
-					'Jacob Herper',
+					'Aman Ullah',
 					'Software Consulting',
 					'Front-End',
 					'Full-Stack',
@@ -51,7 +52,7 @@ const IndexPage = () => {
 			<section id="home" className="h-full">
 				<Container>
 					<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-						Hey, I&apos;m Jacob Herper 👋
+						Hey, I&apos;m Aman Ullah 👋
 					</h1>
 					<p className="my-8 text-lg">
 						I am a passionate Software Engineer, specialised in front-end
@@ -75,7 +76,7 @@ const IndexPage = () => {
 					<p>
 						P.S. this website is open-source and available on{' '}
 						<a
-							href="https://github.com/jakeherp/portfolio"
+							href="https://github.com/@amanullah8225/portfolio"
 							title="Link to Github repository"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -235,6 +236,16 @@ const IndexPage = () => {
 						e-commerce development, I can help you achieve financial goals
 						through performant frontends built in React, Redux and GraphQL.
 					</p>
+				</Container>
+			</section>
+			<section>
+				<Container>
+					<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
+						Projects
+					</h1>
+					{caseStudies.map((caseStudy, i) => (
+						<CaseStudy key={caseStudy.slug} {...caseStudy} index={i} />
+					))}
 				</Container>
 			</section>
 		</AnimatePage>

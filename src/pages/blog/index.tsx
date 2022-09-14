@@ -17,7 +17,7 @@ const BlogPage: NextPage<IProps> = ({ posts }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Software Engineering Blog by Jacob Herper"
+				title="Software Engineering Blog by Aman Ullah"
 				description="I try to make an effort to document my journey as a software developer in the form of blog posts. Here you find some of the articles I published over the years."
 			/>
 			<Container>

@@ -15,7 +15,8 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 	return (
 		<Box>
 			<div className="flex gap-4 items-center">
-				{institute.logo && (
+				
+				{/* {institute.logo && (
 					<Image
 						src={institute.logo}
 						alt={institute.name}
@@ -23,14 +24,15 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 						height={64}
 						className="rounded-md"
 					/>
-				)}
+				)} */}
 				<div className="w-full mb-2">
 					<div className="flex justify-between">
 						<h3 className="font-bold">{course}</h3>
 						<span>{format(new Date(date), 'MMM yyyy')}</span>
 					</div>
 					<h4>
-						{institute.url ? (
+						{institute}
+						{/* {institute.url ? (
 							<a
 								href={institute.url}
 								target="_blank"
@@ -41,7 +43,7 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 							</a>
 						) : (
 							<>{institute.name}</>
-						)}
+						)} */}
 					</h4>
 					<p className="text-sm">
 						<strong>Course Contents: </strong>

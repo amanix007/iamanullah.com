@@ -13,11 +13,11 @@ interface IProps {
 	caseStudies: ICaseStudy[];
 }
 
-const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
+export const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Software Engineering Case Studies – Jacob Herper"
+				title="Software Engineering Case Studies – Aman Ullah"
 				description={`Here you can find ${caseStudies.length} case studies of projects I have worked on over the last few years. Learn how I have overcome challenges.`}
 			/>
 			<Container>
@@ -33,40 +33,40 @@ const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
 };
 
 export async function getStaticProps() {
-	const { data } = await client.query({
-		query: gql`
-			query CaseStudiesQuery {
-				caseStudies(orderBy: updatedAt_DESC) {
-					id
-					title
-					slug
-					seoDescription
-					client {
-						name
-						logo {
-							url
-						}
-					}
-					content {
-						raw
-					}
-					technologies {
-						skill
-					}
-					primaryImage {
-						url
-					}
-					secondaryImages {
-						url
-					}
-				}
-			}
-		`,
-	});
+	// const { data } = await client.query({
+	// 	query: gql`
+	// 		query CaseStudiesQuery {
+	// 			caseStudies(orderBy: updatedAt_DESC) {
+	// 				id
+	// 				title
+	// 				slug
+	// 				seoDescription
+	// 				client {
+	// 					name
+	// 					logo {
+	// 						url
+	// 					}
+	// 				}
+	// 				content {
+	// 					raw
+	// 				}
+	// 				technologies {
+	// 					skill
+	// 				}
+	// 				primaryImage {
+	// 					url
+	// 				}
+	// 				secondaryImages {
+	// 					url
+	// 				}
+	// 			}
+	// 		}
+	// 	`,
+	// });
 
 	return {
 		props: {
-			caseStudies: mapCaseStudies(data.caseStudies),
+			caseStudies: [],
 		},
 	};
 }

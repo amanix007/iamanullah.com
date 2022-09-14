@@ -1,6 +1,6 @@
-# Jacob Herper Portfolio
+# Aman Ullah Portfolio
 
-[![Jacob Herper - Software Engineer and Consultant in the UK](https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png)](https://jacobherper.com/)
+[![Aman Ullah - Software Engineer and Consultant in the UK](https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png)](https://jacobherper.com/)
 
 This is my portfolio website, proudly built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind](https://tailwindcss.com/). The content is managed through [GraphCMS](https://graphcms.com/) and accessed via GraphQL endpoints using [Apollo Client](https://www.apollographql.com/).
 
@@ -8,7 +8,7 @@ Previously I built my website using Gatsby, but decided to move over to Next.js 
 
 This project is a constant work in progress, so if you find any bugs, typos or other errors, please feel free to open an issue or pull request. This project is open source, so please feel free to fork and adapt for your own projects (credit would be appreciated).
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/jakeherp/portfolio)](https://github.com/jakeherp/portfolio/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/@amanullah8225/portfolio)](https://github.com/@amanullah8225/portfolio/releases)
 
 ## Getting this project up and running
 

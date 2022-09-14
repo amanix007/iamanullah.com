@@ -34,7 +34,7 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title={`Case Study: ${title} - Jacob Herper's Case Studies`}
+				title={`Case Study: ${title} - Aman Ullah's Case Studies`}
 				description={seoDescription}
 			/>
 			<Container>
@@ -83,67 +83,68 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 	);
 };
 
-export async function getStaticPaths() {
-	const { data } = await client.query({
-		query: gql`
-			query CaseStudiesQuery {
-				caseStudies {
-					slug
-					title
-				}
-			}
-		`,
-	});
+// export async function getStaticPaths() {
+// 	const { data } = await client.query({
+// 		query: gql`
+// 			query CaseStudiesQuery {
+// 				caseStudies {
+// 					slug
+// 					title
+// 				}
+// 			}
+// 		`,
+// 	});
 
-	return {
-		paths: data.caseStudies.map(({ slug }: ICaseStudy) => ({
-			params: { slug },
-		})),
-		fallback: false,
-	};
-}
+// 	return {
+// 		paths: data.caseStudies.map(({ slug }: ICaseStudy) => ({
+// 			params: { slug },
+// 		})),
+// 		fallback: false,
+// 	};
+// }
 
 type Params = {
 	params: { slug: ICaseStudy['slug'] };
 };
 
 export async function getStaticProps({ params }: Params) {
-	const { data } = await client.query({
-		query: gql`
-			query CaseStudyPageQuery($slug: String!) {
-				caseStudy(where: { slug: $slug }) {
-					id
-					title
-					slug
-					projectUrl
-					seoDescription
-					client {
-						name
-						logo {
-							url
-						}
-					}
-					content {
-						raw
-					}
-					technologies {
-						skill
-					}
-					primaryImage {
-						url
-					}
-					secondaryImages {
-						url
-					}
-				}
-			}
-		`,
-		variables: { slug: params.slug },
-	});
+	// const { data } = await client.query({
+	// 	query: gql`
+	// 		query CaseStudyPageQuery($slug: String!) {
+	// 			caseStudy(where: { slug: $slug }) {
+	// 				id
+	// 				title
+	// 				slug
+	// 				projectUrl
+	// 				seoDescription
+	// 				client {
+	// 					name
+	// 					logo {
+	// 						url
+	// 					}
+	// 				}
+	// 				content {
+	// 					raw
+	// 				}
+	// 				technologies {
+	// 					skill
+	// 				}
+	// 				primaryImage {
+	// 					url
+	// 				}
+	// 				secondaryImages {
+	// 					url
+	// 				}
+	// 			}
+	// 		}
+	// 	`,
+	// 	variables: { slug: params.slug },
+	// });
 
 	return {
 		props: {
-			caseStudy: mapCaseStudies([data.caseStudy])[0],
+			// caseStudy: mapCaseStudies([data.caseStudy])[0],
+			caseStudy: [],
 		},
 	};
 }

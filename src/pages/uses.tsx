@@ -17,7 +17,7 @@ const UsesPage: NextPage<IProps> = ({ markdown }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Jacob Herper uses ..."
+				title="Aman Ullah uses ..."
 				description="This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer in the UK."
 			/>
 			<Container>

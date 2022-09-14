@@ -15,7 +15,7 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 		<>
 			{jobs.map(
 				(
-					{ company, jobTitle, fromDate, toDate, technologies, description },
+					{ name, position, startDate, endDate, highlights, summary },
 					index
 				) => (
 					<div
@@ -25,16 +25,16 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 								'justify-end': index % 2 !== 0,
 							}
 						)}
-						key={`${company} ${jobTitle}`}
+						key={`${name} ${position}`}
 					>
 						<Job
-							company={company}
-							jobTitle={jobTitle}
-							fromDate={fromDate}
-							toDate={toDate}
-							technologies={technologies}
+							company={name}
+							jobTitle={position}
+							fromDate={startDate}
+							toDate={endDate}
+							technologies={highlights}
 						>
-							<RichText renderers={mdxComponents} content={description} />
+							<RichText renderers={mdxComponents} content={summary} />
 						</Job>
 					</div>
 				)

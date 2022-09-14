@@ -13,18 +13,18 @@ export const navItems = [
 		href: '/about',
 		title: 'About',
 	},
+	// {
+	// 	href: '/uses',
+	// 	title: 'Uses',
+	// },
 	{
-		href: '/uses',
-		title: 'Uses',
+		href: '/projects',
+		title: 'Projects',
 	},
-	{
-		href: '/case-studies',
-		title: 'Case Studies',
-	},
-	{
-		href: '/blog',
-		title: 'Blog',
-	},
+	// {
+	// 	href: '/blog',
+	// 	title: 'Blog',
+	// },
 ];
 
 const Header = () => {
