@@ -15,7 +15,7 @@ const Job: FC<JobProps> = ({
 	jobTitle,
 	fromDate,
 	toDate,
-	technologies,
+	techStack,
 	children,
 }) => {
 	return (
@@ -54,14 +54,14 @@ const Job: FC<JobProps> = ({
 						)}
 					</h4>
 					<p className="hidden md:block text-sm">
-						<strong>Technologies: </strong>
-						{technologies.join(', ')}
+						<strong>techStack: </strong>
+						{techStack.join(', ')}
 					</p>
 				</div>
 			</div>
 			<p className="md:hidden text-sm">
-				<strong>Technologies: </strong>
-				{technologies.join(', ')}
+				<strong>techStack: </strong>
+				{techStack.join(', ')}
 			</p>
 			{children}
 		</Box>

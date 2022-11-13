@@ -14,10 +14,7 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 	return (
 		<>
 			{jobs.map(
-				(
-					{ name, position, startDate, endDate, highlights, summary },
-					index
-				) => (
+				({ name, position, startDate, endDate, techStack, summary }, index) => (
 					<div
 						className={classNames(
 							'flex transition-all transform md:hover:scale-[1.01]',
@@ -32,7 +29,7 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 							jobTitle={position}
 							fromDate={startDate}
 							toDate={endDate}
-							technologies={highlights}
+							techStack={techStack}
 						>
 							<RichText renderers={mdxComponents} content={summary} />
 						</Job>

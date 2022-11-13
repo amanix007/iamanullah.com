@@ -4,14 +4,14 @@
 	"version": "3.7.0",
 	"author": {
 		"name": "Aman Ullah",
-		"email": "jacob@herper.io",
-		"url": "https://herper.io/"
+		"email": "amanullah8225@gmail.com",
+		"url": "https://iamanullah.com"
 	},
 	"license": "MIT",
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/@amanullah8225/portfolio"
+		"url": "https://github.com/amanix007/iamanullah.com"
 	},
 	"scripts": {
 		"dev": "next",
