@@ -12,7 +12,6 @@ import { Button } from 'Atoms/Button';
 import { Container } from 'Atoms/Container';
 import { Education } from 'Organisms/Education';
 import { Icon } from 'Atoms/Icon';
-import { PodcastList } from 'Molecules/PodcastList';
 import { SeoHead } from 'Atoms/SeoHead';
 import { WorkExperience } from 'Organisms/WorkExperience';
 import data from "../data/Aman_Ullah.resume.json";

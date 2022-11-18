@@ -107,6 +107,16 @@ const IndexPage = () => {
 					</div>
 				</Container>
 			</section>
+			<section id="projects">
+			<Container>
+				<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
+					Case Studies
+				</h1>
+				{caseStudies.map((caseStudy, i) => (
+					<CaseStudy key={caseStudy.slug} {...caseStudy} index={i} />
+				))}
+			</Container>
+				</section>
 			<section id="services">
 				<Container>
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
