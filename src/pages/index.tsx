@@ -1,3 +1,4 @@
+/* eslint-disable sort-imports */
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
@@ -12,8 +13,16 @@ import LogoPrismic from 'Public/assets/tools/prismic.svg';
 import LogoStorybook from 'Public/assets/tools/storybook.svg';
 import LogoSvelte from 'Public/assets/tools/svelte.svg';
 import LogoVercel from 'Public/assets/tools/vercel.svg';
+import data from '../data/Aman_Ullah.resume';
+import { WorkExperience } from 'Organisms/WorkExperience';
+import { IJob } from '@types';
+import { NextPage } from 'next';
 
-const IndexPage = () => {
+interface IProps {
+	jobs: IJob[];
+}
+
+const IndexPage: NextPage<IProps> = ({ jobs }) => {
 	const talkAbout = [
 		'React',
 		'JavaScript',
@@ -28,7 +37,6 @@ const IndexPage = () => {
 		'Gatsby',
 		'Svelte',
 	];
-	let caseStudies = [];
 
 	return (
 		<AnimatePage>
@@ -107,16 +115,16 @@ const IndexPage = () => {
 					</div>
 				</Container>
 			</section>
-			<section id="projects">
-			<Container>
-				<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
-					Case Studies
-				</h1>
-				{caseStudies.map((caseStudy, i) => (
-					<CaseStudy key={caseStudy.slug} {...caseStudy} index={i} />
-				))}
-			</Container>
-				</section>
+
+			<section>
+				<Container>
+					<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
+						Experience
+					</h1>
+					<WorkExperience jobs={jobs} />
+				</Container>
+			</section>
+
 			<section id="services">
 				<Container>
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
@@ -248,18 +256,16 @@ const IndexPage = () => {
 					</p>
 				</Container>
 			</section>
-			<section>
-				<Container>
-					<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
-						Projects
-					</h1>
-					{caseStudies.map((caseStudy, i) => (
-						<CaseStudy key={caseStudy.slug} {...caseStudy} index={i} />
-					))}
-				</Container>
-			</section>
 		</AnimatePage>
 	);
 };
 
 export default IndexPage;
+
+export async function getStaticProps() {
+	return {
+		props: {
+			jobs: data.work,
+		},
+	};
+}

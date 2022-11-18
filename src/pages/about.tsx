@@ -14,7 +14,7 @@ import { Education } from 'Organisms/Education';
 import { Icon } from 'Atoms/Icon';
 import { SeoHead } from 'Atoms/SeoHead';
 import { WorkExperience } from 'Organisms/WorkExperience';
-import data from "../data/Aman_Ullah.resume.json";
+import data from "../data/Aman_Ullah.resume";
 
 interface IProps {
 	podcasts: IPodcast[];
