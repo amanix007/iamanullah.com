@@ -11,10 +11,14 @@ export interface WorkExperienceProps {
 }
 
 const WorkExperience = ({ jobs }: WorkExperienceProps) => {
+	console.log('jobs:', jobs);
 	return (
 		<>
 			{jobs.map(
-				({ name, position, startDate, endDate, techStack, summary }, index) => (
+				(
+					{ company, jobTitle, startDate, endDate, technologies, summary },
+					index
+				) => (
 					<div
 						className={classNames(
 							'flex transition-all transform md:hover:scale-[1.01]',
@@ -22,16 +26,23 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 								'justify-end': index % 2 !== 0,
 							}
 						)}
-						key={`${name} ${position}`}
+						key={`${company.name} ${jobTitle}`}
 					>
 						<Job
-							company={name}
-							jobTitle={position}
-							fromDate={startDate}
-							toDate={endDate}
-							techStack={techStack}
+							company={company}
+							jobTitle={jobTitle}
+							startDate={startDate}
+							endDate={endDate}
+							technologies={technologies}
 						>
-							<RichText renderers={mdxComponents} content={summary} />
+							<ul className="list-disc ml-4 mt-4">
+								{summary.map((text) => (
+									<li className="mt-1" key={text}>
+										{text}
+									</li>
+								))}
+							</ul>
+							{/* <RichText renderers={mdxComponents} content={summary} /> */}
 						</Job>
 					</div>
 				)

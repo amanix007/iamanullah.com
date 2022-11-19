@@ -27,58 +27,82 @@
   },
   "work": [
     {
-      "name": "ShareTrip",
-      "position": "Frontend Developer",
+      "company": {
+        "name": "ShareTrip",
+        "logo": "sharetrip-short"
+      },
+      "jobTitle": "Frontend Developer",
       "startDate": "2018-08-31",
       "endDate": "",
       "highlights": [],
+      "technologies": [],
       "summary": "Javascript, Typescript, React, NextJS, Redux, Mobx , Advanced UI",
       "url": "https://www.linkedin.com/company/sharetrip/",
       "location": "Bangladesh"
     },
     {
-      "name": "Rasuta Energy LTD",
-      "position": "Frontend Developer (Remote)",
+      "company": {
+        "name": "Rasuta Energy LTD",
+        "logo": "Rasuta-Energy-LTD-short"
+      },
+      "jobTitle": "Frontend Developer (Remote)",
       "startDate": "2020-01-31",
       "endDate": "2021-06-30",
       "highlights": [],
+      "technologies": [],
       "summary": "Built React APP for Displaying London Air Forecast in\nGoogle Maps.\nDeveloped Mobile Apps by flutter.\nAlso Built REST API Using Nestjs",
       "url": "",
       "location": "Birmingham, England, United Kingdom"
     },
     {
-      "name": "Pharma71",
-      "position": "Software Engineer",
+      "company": {
+        "name": "Pharma71",
+        "logo": "pharma71-short"
+      },
+      "jobTitle": "Software Engineer",
       "startDate": "2018-03-31",
       "endDate": "2018-07-31",
       "highlights": [],
+      "technologies": [],
       "url": "https://www.linkedin.com/company/pharma71/",
       "location": "Bangladesh"
     },
     {
-      "name": "Beatnik.Digital",
-      "position": "Frontend Developer",
+      "company": {
+        "name": "Beatnik.Digital",
+        "logo": "beatnik-short"
+      },
+      "jobTitle": "Frontend Developer",
       "startDate": "2017-02-28",
       "endDate": "2018-02-28",
       "highlights": [],
+      "technologies": [],
       "url": "https://www.linkedin.com/company/beatnik-digital/",
       "location": "Dhaka"
     },
     {
-      "name": "Colors Of Bangladesh",
-      "position": "Frontend Developer",
+      "company": {
+        "name": "Colors Of Bangladesh",
+        "logo": "cob-short"
+      },
+      "jobTitle": "Frontend Developer",
       "startDate": "2016-01-31",
       "endDate": "2016-08-31",
       "highlights": [],
+      "technologies": [],
       "url": "",
       "location": "Banani, Dhaka"
     },
     {
-      "name": "EvenFly",
-      "position": "Frontend Developer",
+      "company": {
+        "name": "EvenFly",
+        "logo": "evenfly-short"
+      },
+      "jobTitle": "Frontend Developer",
       "startDate": "2014-09-30",
       "endDate": "2014-12-31",
       "highlights": [],
+      "technologies": [],
       "url": "https://www.linkedin.com/company/evenfly/",
       "location": "Bashudhara Residential Area, Dhaka"
     }

@@ -37,7 +37,6 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 		'Gatsby',
 		'Svelte',
 	];
-
 	return (
 		<AnimatePage>
 			<SeoHead
@@ -81,7 +80,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 						/>
 						.
 					</p>
-					<p>
+					{/* <p>
 						P.S. this website is open-source and available on{' '}
 						<a
 							href="https://github.com/@amanullah8225/portfolio"
@@ -93,7 +92,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 							Github
 						</a>
 						.
-					</p>
+					</p> */}
 				</Container>
 			</section>
 			<section id="tools" className="my-40">
@@ -121,6 +120,9 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 					<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
 						Experience
 					</h1>
+					<div>
+						
+					</div>
 					<WorkExperience jobs={jobs} />
 				</Container>
 			</section>

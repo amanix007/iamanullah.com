@@ -7,23 +7,24 @@ import { FC, ReactNode } from 'react';
 import { Box } from 'Atoms/Box';
 
 interface JobProps extends Omit<IJob, 'description'> {
-	children?: ReactNode;
+	children?: any;
 }
 
 const Job: FC<JobProps> = ({
 	company,
 	jobTitle,
-	fromDate,
-	toDate,
-	techStack,
+	startDate,
+	endDate,
+	technologies,
 	children,
 }) => {
+	console.log('company', company);
 	return (
 		<Box>
 			<div className="flex gap-4 items-start md:items-center">
 				{company.logo && (
 					<Image
-						src={company.logo}
+						src={`/assets/companies/${company.logo}.png`}
 						alt={company.name}
 						width={64}
 						height={64}
@@ -34,8 +35,8 @@ const Job: FC<JobProps> = ({
 					<div className="flex flex-col-reverse md:flex-row justify-between">
 						<h3 className="font-bold">{jobTitle}</h3>
 						<span className="text-sm md:text-base">
-							{`${format(new Date(fromDate), 'MMM yyyy')} — ${
-								toDate ? format(new Date(toDate), 'MMM yyyy') : 'present'
+							{`${format(new Date(startDate), 'MMM yyyy')} — ${
+								endDate ? format(new Date(endDate), 'MMM yyyy') : 'present'
 							}`}
 						</span>
 					</div>
@@ -54,14 +55,14 @@ const Job: FC<JobProps> = ({
 						)}
 					</h4>
 					<p className="hidden md:block text-sm">
-						<strong>techStack: </strong>
-						{techStack.join(', ')}
+						<strong>Stack: </strong>
+						{technologies.join(', ')}
 					</p>
 				</div>
 			</div>
 			<p className="md:hidden text-sm">
-				<strong>techStack: </strong>
-				{techStack.join(', ')}
+				<strong>Stack: </strong>
+				{technologies.join(', ')}
 			</p>
 			{children}
 		</Box>
