@@ -23,6 +23,8 @@ const moduleExports = {
 			'dev-to-uploads.s3.amazonaws.com',
 			'media.graphcms.com',
 			'media.graphassets.com',
+			'via.placeholder.com',
+			'picsum.photos',
 		],
 	},
 };

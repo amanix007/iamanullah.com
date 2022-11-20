@@ -23,7 +23,7 @@ const CaseStudy = ({
 
 	return (
 		<article className="mt-24 first-of-type:mt-0 transition md:hover:scale-[1.01]">
-			<Link href={`/projects/${slug}`}>
+			<Link href={`/case-studies/${slug}`}>
 				<a className="group">
 					<Box>
 						<div
@@ -36,7 +36,7 @@ const CaseStudy = ({
 								<h1 className="text-xl md:text-3xl font-bold mb-2">{title}</h1>
 								<div className="mb-4 flex gap-2 items-center">
 									<Image
-										src={client.logo}
+										src={`/assets/companies/${client.logo}.png`}
 										alt={client.name}
 										width={32}
 										height={32}

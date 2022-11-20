@@ -1,3 +1,4 @@
+/* eslint-disable sort-imports */
 import { ICaseStudy } from '@types';
 
 import { client } from 'apollo-client';
@@ -11,15 +12,18 @@ import { Button } from 'Atoms/Button';
 import { Container } from 'Atoms/Container';
 import { FloatingImages } from 'Atoms/FloatingImages';
 import { SeoHead } from 'Atoms/SeoHead';
-
+import data from '../../data/Aman_Ullah.resume';
 import { mapCaseStudies } from 'Utils/mappings/mapCaseStudies';
 import { mdxComponents } from 'Utils/mdxComponents';
 
 interface IProps {
-	caseStudy: ICaseStudy;
+	// caseStudy: ICaseStudy;
+	slug: string;
 }
 
-const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
+const CaseStudyPage: NextPage<IProps> = ({ slug }) => {
+	const caseStudy = data.projects.find((p) => p.slug === slug);
+
 	const {
 		title,
 		content,
@@ -46,7 +50,7 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 						<strong className="mb-2 text-sm">Client:</strong>
 						<div className="mb-4 flex gap-2 items-center">
 							<Image
-								src={client.logo}
+								src={`/assets/companies/${client.logo}.png`}
 								alt={client.name}
 								width={32}
 								height={32}
@@ -83,31 +87,12 @@ const CaseStudyPage: NextPage<IProps> = ({ caseStudy }) => {
 	);
 };
 
-// export async function getStaticPaths() {
-// 	const { data } = await client.query({
-// 		query: gql`
-// 			query CaseStudiesQuery {
-// 				caseStudies {
-// 					slug
-// 					title
-// 				}
-// 			}
-// 		`,
-// 	});
-
-// 	return {
-// 		paths: data.caseStudies.map(({ slug }: ICaseStudy) => ({
-// 			params: { slug },
-// 		})),
-// 		fallback: false,
-// 	};
-// }
-
 type Params = {
 	params: { slug: ICaseStudy['slug'] };
 };
 
-export async function getStaticProps({ params }: Params) {
+export async function getStaticProps({ params }: any) {
+	console.log('params:', params);
 	// const { data } = await client.query({
 	// 	query: gql`
 	// 		query CaseStudyPageQuery($slug: String!) {
@@ -144,8 +129,14 @@ export async function getStaticProps({ params }: Params) {
 	return {
 		props: {
 			// caseStudy: mapCaseStudies([data.caseStudy])[0],
-			caseStudy: [],
+			slug: params.slug,
 		},
+	};
+}
+export async function getStaticPaths() {
+	return {
+		paths: [],
+		fallback: 'blocking',
 	};
 }
 

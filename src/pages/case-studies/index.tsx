@@ -1,3 +1,4 @@
+/* eslint-disable sort-imports */
 import { client } from 'apollo-client';
 import { gql } from '@apollo/client';
 import { ICaseStudy } from '@types';
@@ -8,7 +9,7 @@ import { AnimatePage } from 'Atoms/AnimatePage';
 import { CaseStudy } from 'Molecules/CaseStudy';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
-
+import data from '../../data/Aman_Ullah.resume';
 interface IProps {
 	caseStudies: ICaseStudy[];
 }
@@ -22,9 +23,9 @@ export const CaseStudiesPage: NextPage<IProps> = ({ caseStudies }) => {
 			/>
 			<Container>
 				<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
-					Case Studies
+					Case Studies/Projects
 				</h1>
-				{caseStudies.map((caseStudy, i) => (
+				{data.projects.map((caseStudy, i) => (
 					<CaseStudy key={caseStudy.slug} {...caseStudy} index={i} />
 				))}
 			</Container>

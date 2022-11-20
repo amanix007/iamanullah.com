@@ -13,13 +13,13 @@ export const navItems = [
 		href: '/about',
 		title: 'About',
 	},
-	// {
-	// 	href: '/uses',
-	// 	title: 'Uses',
-	// },
 	{
-		href: '/projects',
-		title: 'Projects',
+		href: '/uses',
+		title: 'Uses',
+	},
+	{
+		href: '/case-studies',
+		title: 'Case Studies/Projects',
 	},
 	// {
 	// 	href: '/blog',

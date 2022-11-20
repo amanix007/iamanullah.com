@@ -18,6 +18,7 @@ import { WorkExperience } from 'Organisms/WorkExperience';
 import { IJob } from '@types';
 import { NextPage } from 'next';
 
+
 interface IProps {
 	jobs: IJob[];
 }
@@ -120,9 +121,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 					<h1 className="headline text-3xl md:text-5xl lg:text-6xl pb-8 mt-8">
 						Experience
 					</h1>
-					<div>
-						
-					</div>
+
 					<WorkExperience jobs={jobs} />
 				</Container>
 			</section>
