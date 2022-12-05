@@ -18,7 +18,6 @@ import { WorkExperience } from 'Organisms/WorkExperience';
 import { IJob } from '@types';
 import { NextPage } from 'next';
 
-
 interface IProps {
 	jobs: IJob[];
 }

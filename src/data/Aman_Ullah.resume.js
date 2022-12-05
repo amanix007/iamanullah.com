@@ -207,7 +207,7 @@ const data = {
 			summary: [
 				'Created website and services for high valued local clients.',
 				'Got my hand dirty with vanila Javascript on small to enterprise level projects.',
-				'Improved Performace and Usability of the websites.',
+				'Improved Performance and Usability of the websites.',
 			],
 			url: 'https://www.linkedin.com/company/beatnik-digital/',
 			location: 'Dhaka',
@@ -253,7 +253,14 @@ const data = {
 			summary: [
 				'Created website and services for high valued local clients.',
 				'Got my hand dirty with vanila Javascript on small to enterprise level projects.',
-				'Improved Performace and Usability of the websites.',
+				'Improved Performance and Usability of the websites.',
+				'Learned about ionic there',
+				'Created website and services for high valued govt clients like army and national museum.',
+				'Custom made software for touch Kiosk and dynamic banner',
+				'Created Pixel Perfect UI for wordpress projects',
+				'Created Custom wordpress theme',
+				'built responsive and adaptive sites',
+				'Also built SEO Friendly HTML Markups',
 			],
 			url: '',
 			location: 'Banani, Dhaka',
@@ -299,7 +306,7 @@ const data = {
 			summary: [
 				'Created website and services for high valued local clients.',
 				'Got my hand dirty with vanila Javascript on small to enterprise level projects.',
-				'Improved Performace and Usability of the websites.',
+				'Improved Performance and Usability of the websites.',
 			],
 			url: 'https://www.linkedin.com/company/evenfly/',
 			location: 'Bashudhara Residential Area, Dhaka',
