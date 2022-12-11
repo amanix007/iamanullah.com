@@ -1,7 +1,7 @@
 const data = {
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
-		skills
+
 	textContent: {
 		introduction: {
 			site: 'Hey, I&apos;m Aman Ullah 👋',
@@ -42,7 +42,8 @@ const data = {
 				serviceSummary:
 					'	I find the right tech stack for your project, scale your team and work with you every step of the way.',
 				serviceDescription: [
-					'I love working with startups and established businesses to find the right tech stack, be it a single new feature or a whole rebuild of your current product. I can help you find the perfect developers for your project and scale up as your business grows.', 'I find the right tech stack for your project, scale your team and  work with you every step of the way.',
+					'I love working with startups and established businesses to find the right tech stack, be it a single new feature or a whole rebuild of your current product. I can help you find the perfect developers for your project and scale up as your business grows.',
+					'I find the right tech stack for your project, scale your team and  work with you every step of the way.',
 				],
 			},
 		],
@@ -391,7 +392,7 @@ const data = {
 	awards: [],
 	certificates: [],
 	publications: [],
-	
+
 	skills: [
 		{
 			name: 'JavaScript',
