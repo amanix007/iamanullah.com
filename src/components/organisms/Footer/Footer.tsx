@@ -8,24 +8,24 @@ const Footer = () => {
 				profiles={[
 					{
 						name: 'Github',
-						url: 'https://www.github.com/@amanullah8225',
+						url: 'https://www.github.com/amanix007',
 						icon: 'GITHUB',
 					},
 					{
 						name: 'LinkedIn',
-						url: 'https://www.linkedin.com/in/jacobherper',
+						url: 'https://www.linkedin.com/in/amanullah8225',
 						icon: 'LINKEDIN',
 					},
 					{
 						name: 'Twitter',
-						url: 'https://twitter.com/@amanullah8225',
+						url: 'https://twitter.com/amanullah8225',
 						icon: 'TWITTER',
 					},
-					{
-						name: 'Instagram',
-						url: 'https://www.instagram.com/@amanullah8225',
-						icon: 'INSTAGRAM',
-					},
+					// {
+					// 	name: 'Instagram',
+					// 	url: 'https://www.instagram.com/@amanullah8225',
+					// 	icon: 'INSTAGRAM',
+					// },
 				]}
 			/>
 		</footer>

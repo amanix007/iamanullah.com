@@ -3,7 +3,7 @@ const { withSentryConfig } = require('@sentry/nextjs');
 const moduleExports = {
 	poweredByHeader: false,
 	swcMinify: true,
-	assetPrefix: process.env.ASSET_HOST || '',
+	// assetPrefix: process.env.ASSET_HOST || '',
 	productionBrowserSourceMaps: process.env.NODE_ENV === 'production',
 	webpack(config) {
 		config.module.rules.push({

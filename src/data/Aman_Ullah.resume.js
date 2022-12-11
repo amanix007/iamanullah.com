@@ -1,6 +1,52 @@
 const data = {
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
+		skills
+	textContent: {
+		introduction: {
+			site: 'Hey, I&apos;m Aman Ullah 👋',
+		},
+		jobTitleDescription: {
+			site: 'Senior Software Engineer and Consultant.',
+			seo: 'Senior Software Engineer and Consultant – Aman Ullah',
+		},
+		shortDescription: {
+			site: `	I am a passionate Software Engineer, specialised in front-end
+			development using React and TypeScript. As an advocate for web
+			performance and accessibility and an evangelist for the Jamstack, I
+			create amazing web applications to make the internet a better place.
+			You can talk to me about`,
+		},
+		talkAbout: [
+			'React',
+			'JavaScript',
+			'TypeScript',
+			'GraphQL',
+			'Redux',
+			'Jamstack',
+			'Next.js',
+			'RESTful APIs',
+			'HTML',
+			'CSS',
+			'Gatsby',
+			'Svelte',
+		],
+	},
+	servicesIprovide: {
+		title: 'Services I provide',
+		subTitle:
+			'as a software architect with a passion for creating applications and websites that people love.',
+		serviceList: [
+			{
+				serviceName: 'Software Consultancy',
+				serviceSummary:
+					'	I find the right tech stack for your project, scale your team and work with you every step of the way.',
+				serviceDescription: [
+					'I love working with startups and established businesses to find the right tech stack, be it a single new feature or a whole rebuild of your current product. I can help you find the perfect developers for your project and scale up as your business grows.', 'I find the right tech stack for your project, scale your team and  work with you every step of the way.',
+				],
+			},
+		],
+	},
 	basics: {
 		name: 'Aman Ullah',
 		label: 'Javascript | Typescript | React | Nextjs | UI',
@@ -338,6 +384,7 @@ const data = {
 	awards: [],
 	certificates: [],
 	publications: [],
+	
 	skills: [
 		{
 			name: 'JavaScript',

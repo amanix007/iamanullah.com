@@ -9,6 +9,8 @@ import LogoFigma from 'Public/assets/tools/figma.svg';
 import LogoGraphql from 'Public/assets/tools/graphql.svg';
 import LogoHygraph from 'Public/assets/tools/hygraph.svg';
 import LogoNext from 'Public/assets/tools/nextjs.svg';
+import LogoReact from 'Public/assets/tools/reactjs.svg';
+import LogoWebpack from 'Public/assets/tools/webpack.svg';
 import LogoPrismic from 'Public/assets/tools/prismic.svg';
 import LogoStorybook from 'Public/assets/tools/storybook.svg';
 import LogoSvelte from 'Public/assets/tools/svelte.svg';
@@ -18,30 +20,15 @@ import { WorkExperience } from 'Organisms/WorkExperience';
 import { IJob } from '@types';
 import { NextPage } from 'next';
 
-
 interface IProps {
 	jobs: IJob[];
 }
 
 const IndexPage: NextPage<IProps> = ({ jobs }) => {
-	const talkAbout = [
-		'React',
-		'JavaScript',
-		'TypeScript',
-		'GraphQL',
-		'Redux',
-		'Jamstack',
-		'Next.js',
-		'RESTful APIs',
-		'HTML',
-		'CSS',
-		'Gatsby',
-		'Svelte',
-	];
 	return (
 		<AnimatePage>
 			<SeoHead
-				title="Senior Software Engineer and Consultant – Aman Ullah"
+				title={data.textContent.jobTitleDescription.seo}
 				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
 				keywords={[
 					'Software Engineer',
@@ -59,20 +46,24 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 			/>
 			<section id="home" className="h-full">
 				<Container>
-					<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-						Hey, I&apos;m Aman Ullah 👋
-					</h1>
+					<h1
+						className="headline mt-20 text-3xl md:text-5xl lg:text-6xl"
+						dangerouslySetInnerHTML={
+							{ __html: data.textContent.introduction.site } as any
+						}
+					></h1>
 					<p className="my-8 text-lg">
-						I am a passionate Software Engineer, specialised in front-end
-						development using React and TypeScript. As an advocate for web
-						performance and accessibility and an evangelist for the Jamstack, I
-						create amazing web applications to make the internet a better place.
-						You can talk to me about{' '}
+						<span
+							className="my-8 text-lg"
+							dangerouslySetInnerHTML={
+								{ __html: data.textContent.shortDescription.site } as any
+							}
+						></span>
 						<Typed
 							loop
 							typeSpeed={80}
 							backSpeed={20}
-							strings={talkAbout}
+							strings={data.textContent.talkAbout}
 							smartBackspace
 							backDelay={1000}
 							loopCount={0}
@@ -103,15 +94,17 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 					</h2>
 
 					<div className="flex flex-wrap items-center justify-center max-w-5xl mt-8 mx-auto gap-x-16 gap-y-8">
+						<LogoReact className="w-20" aria-label="React.js" />
 						<LogoNext className="w-32" aria-label="Next.js" />
-						<LogoSvelte className="w-12" aria-label="SvelteKit" />
-						<LogoHygraph className="w-28 md:w-36" aria-label="Hygraph" />
-						<LogoPrismic className="w-32 md:w-40" aria-label="Prismic" />
+						{/* <LogoSvelte className="w-12" aria-label="SvelteKit" /> */}
+						{/* <LogoHygraph className="w-28 md:w-36" aria-label="Hygraph" /> */}
+						{/* <LogoPrismic className="w-32 md:w-40" aria-label="Prismic" /> */}
 						<LogoStorybook className="w-32 md:w-40" aria-label="Storybook" />
-						<LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" />
+						<LogoWebpack className="w-48 md:w-40" aria-label="Webpack" />
+						{/* <LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" /> */}
 						<LogoVercel className="w-32 md:w-36" aria-label="Vercel" />
 						<LogoFigma className="w-8" aria-label="Figma" />
-						<LogoCypress className="w-32 md:w-40" aria-label="Cypress" />
+						{/* <LogoCypress className="w-32 md:w-40" aria-label="Cypress" /> */}
 					</div>
 				</Container>
 			</section>
@@ -129,13 +122,29 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 			<section id="services">
 				<Container>
 					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
-						Services I provide
+						{data.servicesIprovide.title}
 					</h2>
 					<p className="font-bold text-xl md:text-2xl mt-2">
-						as a software architect with a passion for creating applications and
-						websites that people love.
+						{data.servicesIprovide.subTitle}
 					</p>
-
+					{data.servicesIprovide.serviceList.map((service) => {
+						return (
+							<div className="service-type" key={service.serviceName}>
+								<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
+									{service.serviceName}
+								</h3>
+								<p className="text-xl mt-4 md:text-xl lg:text-2xl">
+									{service.serviceSummary}
+								</p>
+								{service.serviceDescription.map((d) => (
+									<p className="mt-4 mb-4 text-lg leading-7" key={d}>
+										{d}
+									</p>
+								))}
+							</div>
+						);
+					})}
+{/* 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
 						Software Consultancy
 					</h3>
@@ -254,7 +263,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 						experience working across different industries in B2B and B2C
 						e-commerce development, I can help you achieve financial goals
 						through performant frontends built in React, Redux and GraphQL.
-					</p>
+					</p> */}
 				</Container>
 			</section>
 		</AnimatePage>

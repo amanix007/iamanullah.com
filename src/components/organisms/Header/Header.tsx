@@ -9,18 +9,18 @@ import { ThemeToggle } from 'Atoms/ThemeToggle';
 import { useRouter } from 'next/router';
 
 export const navItems = [
-	{
-		href: '/about',
-		title: 'About',
-	},
-	{
-		href: '/uses',
-		title: 'Uses',
-	},
-	{
-		href: '/case-studies',
-		title: 'Case Studies/Projects',
-	},
+	// {
+	// 	href: '/about',
+	// 	title: 'About',
+	// },
+	// {
+	// 	href: '/uses',
+	// 	title: 'Uses',
+	// },
+	// {
+	// 	href: '/case-studies-projects',
+	// 	title: 'Case Studies/Projects',
+	// },
 	// {
 	// 	href: '/blog',
 	// 	title: 'Blog',
