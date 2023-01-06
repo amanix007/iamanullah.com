@@ -13,12 +13,16 @@ import LogoReact from 'Public/assets/tools/reactjs.svg';
 import LogoWebpack from 'Public/assets/tools/webpack.svg';
 import LogoPrismic from 'Public/assets/tools/prismic.svg';
 import LogoStorybook from 'Public/assets/tools/storybook.svg';
+import LogoTurboPack from 'Public/assets/tools/turbopack.svg';
+import LogoTurboRepo from 'Public/assets/tools/turborepo.svg';
 import LogoSvelte from 'Public/assets/tools/svelte.svg';
 import LogoVercel from 'Public/assets/tools/vercel.svg';
 import data from '../data/Aman_Ullah.resume';
 import { WorkExperience } from 'Organisms/WorkExperience';
 import { IJob } from '@types';
 import { NextPage } from 'next';
+import { Button } from 'Atoms/Button';
+import { Icon } from 'Atoms/Icon';
 
 interface IProps {
 	jobs: IJob[];
@@ -104,6 +108,8 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 						{/* <LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" /> */}
 						<LogoVercel className="w-32 md:w-36" aria-label="Vercel" />
 						<LogoFigma className="w-8" aria-label="Figma" />
+						<LogoTurboPack className="w-60 md:w-60" aria-label="Turbo Pack" />
+						<LogoTurboRepo className="w-60 md:w-60" aria-label="Turbo Repo" />
 						{/* <LogoCypress className="w-32 md:w-40" aria-label="Cypress" /> */}
 					</div>
 				</Container>
@@ -144,7 +150,22 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 							</div>
 						);
 					})}
-{/* 
+
+					<div className="flex justify-center mt-8">
+						<Button
+							href="/cv-2022.pdf"
+							download={true}
+							className="group flex gap-2 whitespace-nowrap"
+						>
+							<div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
+								<Icon icon="DOWNLOAD" />
+							</div>
+							<div className="block headline group-hover:text-off-white">
+								Download my CV
+							</div>
+						</Button>
+					</div>
+					{/* 
 					<h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
 						Software Consultancy
 					</h3>
