@@ -5,6 +5,7 @@ export interface IEducation {
 	course: string;
 	date: string;
 	technologies: string[];
+	area: any;
 }
 
 export interface IRawEducation {

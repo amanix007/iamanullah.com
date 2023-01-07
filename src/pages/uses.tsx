@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { client } from 'apollo-client';
 import { gql } from '@apollo/client';
 import { mdxComponents } from 'Utils/mdxComponents';

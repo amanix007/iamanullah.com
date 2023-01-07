@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Aman from './aman_ullah.jpg';
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

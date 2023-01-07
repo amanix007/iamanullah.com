@@ -15,7 +15,6 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 	return (
 		<Box>
 			<div className="flex gap-4 items-center">
-				
 				{/* {institute.logo && (
 					<Image
 						src={institute.logo}

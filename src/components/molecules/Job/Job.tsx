@@ -18,7 +18,6 @@ const Job: FC<JobProps> = ({
 	technologies,
 	children,
 }) => {
-	console.log('company', company);
 	return (
 		<Box>
 			<div className="flex gap-4 items-start md:items-center">
@@ -35,9 +34,8 @@ const Job: FC<JobProps> = ({
 					<div className="flex flex-col-reverse md:flex-row justify-between">
 						<h3 className="font-bold">{jobTitle}</h3>
 						<span className="text-sm md:text-base">
-							{`${format(new Date(startDate), 'MMM yyyy')} — ${
-								endDate ? format(new Date(endDate), 'MMM yyyy') : 'present'
-							}`}
+							{`${format(new Date(startDate), 'MMM yyyy')} — ${endDate ? format(new Date(endDate), 'MMM yyyy') : 'present'
+								}`}
 						</span>
 					</div>
 					<h4>
@@ -48,10 +46,12 @@ const Job: FC<JobProps> = ({
 								rel="noopener noreferrer"
 								className="underlined relative"
 							>
-								{company.name}
+								{company.name} - {company.location}
 							</a>
 						) : (
-							<>{company.name}</>
+							<>
+								{company.name}- {company.location}
+							</>
 						)}
 					</h4>
 					<p className="hidden md:block text-sm">

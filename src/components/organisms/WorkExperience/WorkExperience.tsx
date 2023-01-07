@@ -11,7 +11,6 @@ export interface WorkExperienceProps {
 }
 
 const WorkExperience = ({ jobs }: WorkExperienceProps) => {
-	console.log('jobs:', jobs);
 	return (
 		<>
 			{jobs.map(

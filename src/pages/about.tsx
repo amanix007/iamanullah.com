@@ -1,6 +1,7 @@
 import { IEducation, IJob, IPodcast } from '@types';
 
 import { client } from 'apollo-client';
+import data from '../data/Aman_Ullah.resume';
 import { gql } from '@apollo/client';
 import { mapEducation } from 'Utils/mappings/mapEducation';
 import { mapJobs } from 'Utils/mappings/mapJobs';
@@ -14,7 +15,6 @@ import { Education } from 'Organisms/Education';
 import { Icon } from 'Atoms/Icon';
 import { SeoHead } from 'Atoms/SeoHead';
 import { WorkExperience } from 'Organisms/WorkExperience';
-import data from "../data/Aman_Ullah.resume";
 
 interface IProps {
 	podcasts: IPodcast[];

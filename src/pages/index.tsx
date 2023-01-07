@@ -32,21 +32,9 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 	return (
 		<AnimatePage>
 			<SeoHead
-				title={data.textContent.jobTitleDescription.seo}
-				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
-				keywords={[
-					'Software Engineer',
-					'Aman Ullah',
-					'Software Consulting',
-					'Front-End',
-					'Full-Stack',
-					'React',
-					'TypeScript',
-					'JavaScript',
-					'GraphQL',
-					'CSS',
-					'Tailwind',
-				]}
+				title={data.textContent.homePage.title}
+				description={data.textContent.homePage.description}
+				keywords={data.textContent.homePage.keywords}
 			/>
 			<section id="home" className="h-full">
 				<Container>
@@ -62,7 +50,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 							dangerouslySetInnerHTML={
 								{ __html: data.textContent.shortDescription.site } as any
 							}
-						></span>
+						></span>{' '}
 						<Typed
 							loop
 							typeSpeed={80}
@@ -106,9 +94,9 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 						<LogoStorybook className="w-32 md:w-40" aria-label="Storybook" />
 						<LogoWebpack className="w-48 md:w-40" aria-label="Webpack" />
 						{/* <LogoGraphql className="w-28 md:w-36" aria-label="GraphQL" /> */}
-						<LogoVercel className="w-32 md:w-36" aria-label="Vercel" />
-						<LogoFigma className="w-8" aria-label="Figma" />
+						{/* <LogoVercel className="w-32 md:w-36" aria-label="Vercel" /> */}
 						<LogoTurboPack className="w-60 md:w-60" aria-label="Turbo Pack" />
+						<LogoFigma className="w-8" aria-label="Figma" />
 						<LogoTurboRepo className="w-60 md:w-60" aria-label="Turbo Repo" />
 						{/* <LogoCypress className="w-32 md:w-40" aria-label="Cypress" /> */}
 					</div>
@@ -127,7 +115,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 
 			<section id="services">
 				<Container>
-					<h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
+					{/* <h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
 						{data.servicesIprovide.title}
 					</h2>
 					<p className="font-bold text-xl md:text-2xl mt-2">
@@ -149,11 +137,24 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 								))}
 							</div>
 						);
-					})}
+					})} */}
 
 					<div className="flex justify-center mt-8">
 						<Button
-							href="/cv-2022.pdf"
+							href="mailto:amanullah8225@gmail.com"
+							download={true}
+							className="group flex gap-2 whitespace-nowrap mr-4"
+						>
+							{/* <div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
+								<Icon icon="DOWNLOAD" />
+							</div> */}
+							<div className="block headline group-hover:text-off-white">
+								Contact Me
+							</div>
+						</Button>
+						<span> </span>
+						<Button
+							href="/Aman Ullah.pdf"
 							download={true}
 							className="group flex gap-2 whitespace-nowrap"
 						>

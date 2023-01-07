@@ -1,6 +1,7 @@
 import { IImage } from '@types';
 
 export interface ICompany {
+	location: string;
 	name: string;
 	url: string;
 	logo: string;
