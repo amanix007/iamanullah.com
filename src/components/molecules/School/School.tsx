@@ -30,7 +30,7 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 						<span>{format(new Date(date), 'MMM yyyy')}</span>
 					</div>
 					<h4>
-						{institute}
+						{/* {institute} */}
 						{/* {institute.url ? (
 							<a
 								href={institute.url}

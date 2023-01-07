@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { ICompany, IRawCompany } from '@types';
 
 export interface IJob {

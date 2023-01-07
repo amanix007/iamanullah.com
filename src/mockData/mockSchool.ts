@@ -6,4 +6,5 @@ export const mockSchool: IEducation = {
 	course: 'Some course',
 	date: '2020-01-01',
 	technologies: ['TypeScript', 'React'],
+	area: [],
 };

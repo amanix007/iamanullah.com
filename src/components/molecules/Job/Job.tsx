@@ -7,16 +7,16 @@ import { FC, ReactNode } from 'react';
 import { Box } from 'Atoms/Box';
 
 interface JobProps extends Omit<IJob, 'description'> {
-	children?: any;
+	children: any;
 }
 
-const Job: FC<JobProps> = ({
+const Job: FC<IJob> = ({
 	company,
 	jobTitle,
 	startDate,
 	endDate,
 	technologies,
-	children,
+	summary,
 }) => {
 	return (
 		<Box>
@@ -65,7 +65,14 @@ const Job: FC<JobProps> = ({
 				<strong>Stack: </strong>
 				{technologies.join(', ')}
 			</p>
-			{children}
+
+			<ul className="list-disc ml-4 mt-4">
+				{summary.map((text) => (
+					<li className="mt-1" key={text}>
+						{text}
+					</li>
+				))}
+			</ul>
 		</Box>
 	);
 };
