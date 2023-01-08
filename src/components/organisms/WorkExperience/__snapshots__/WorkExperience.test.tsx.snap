@@ -43,7 +43,7 @@ exports[`WorkExperience renders correctly 1`] = `
             <h3
               class="font-bold"
             >
-              Senior Software Engineer
+              Software Engineer
             </h3>
             <span
               class="text-sm md:text-base"

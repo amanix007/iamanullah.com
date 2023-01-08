@@ -1,10 +1,41 @@
+export const site_owner_name = 'Aman Ullah';
+export const site_base_domain = 'iamanullah.com';
+export const site_full_url = `https://${iamanullah.com}`;
+export const site_owner_full_techstack = [];
+export const site_owner_email = `amanullah8225@gmail.com`;
+export const site_owner_phoneNumber = `+8801680298225`;
+export const site_owner_talk_about = [
+	'React',
+	'Next.js',
+	'Javascript',
+	'Typescript',
+	// 'GraphQL',
+	'Redux',
+	// 'Jamstack',
+	'Mobile First UI',
+	'RESTful APIs',
+	'HTML',
+	'CSS',
+	// 'Gatsby',
+	// 'Svelte',
+];
+export const site_thumbnail_url =
+	'https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png';
+export const online_presence = [
+	'https://linkedin.com/in/amanullah8225',
+	'http://twitter.com/@amanullah8225',
+	'https://github.com/@amanullah8225',
+	'https://www.facebook.com/@amanullah8225',
+];
+export const title = {};
 const data = {
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
-
+	baseDomain: site_base_domain,
+	name: site_owner_name,
 	textContent: {
 		homePage: {
-			title: 'Senior Software Engineer and Consultant – Aman Ullah',
+			title: 'Software Engineer and Consultant – Aman Ullah',
 			description:
 				'A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting.',
 			keywords: [
@@ -23,10 +54,10 @@ const data = {
 			],
 		},
 		introduction: {
-			site: 'Hey, I&apos;m Aman Ullah 👋',
+			site: 'Hey, I&apos;m Aman Ullah',
 		},
 		jobTitleDescription: {
-			site: 'Senior Software Engineer and Consultant.',
+			site: 'Software Engineer and Consultant.',
 		},
 		shortDescription: {
 			site: `I am a passionate Software Engineer, specialised in front-end
@@ -35,21 +66,7 @@ const data = {
 			create amazing web applications, Packages which is well structured and scalable.
 			You can talk to me about`,
 		},
-		talkAbout: [
-			'React',
-			'Next.js',
-			'Javascript',
-			'Typescript',
-			// 'GraphQL',
-			'Redux',
-			// 'Jamstack',
-			'Mobile First UI',
-			'RESTful APIs',
-			'HTML',
-			'CSS',
-			// 'Gatsby',
-			// 'Svelte',
-		],
+		talkAbout: [...site_owner_talk_about],
 	},
 	servicesIprovide: {
 		title: 'Services I provide',
@@ -68,16 +85,16 @@ const data = {
 		],
 	},
 	basics: {
-		name: 'Aman Ullah',
+		name: site_owner_name,
 		label: 'Javascript | Typescript | React | Nextjs | UI',
 		image: '',
-		email: 'amanullah8225@gmail.com',
-		phone: '+8801680298225',
-		url: 'iamanullah.com',
+		email: site_owner_email,
+		phone: site_owner_phoneNumber,
+		url: site_base_domain,
 		summary:
 			'5+ Years of Frontend and 4+ Years in React Experience.\nSkilled in Javascript, React, Nextjs, Nodejs, Advanced UI Development\nand other frontend technologies.',
 		location: {
-			countryCode: 'US',
+			countryCode: 'BD',
 			address: '837, Lejaras, Bandar, Narayanganj, Dhaka',
 		},
 		profiles: [
@@ -548,7 +565,7 @@ const data = {
 	languages: [
 		{
 			language: 'English',
-			fluency: 'Native Speaker',
+			fluency: 'Advanced',
 		},
 	],
 	interests: [],
@@ -695,4 +712,163 @@ const data = {
 	},
 };
 
+let PersonSchema = {
+	'@context': 'http://schema.org',
+	'@type': 'Person',
+	image:
+		'https://res.cloudinary.com/jacobherper/image/upload/v1587315576/jacob_herper.jpg',
+	name: 'Aman Ullah',
+	alternateName: '@amanullah8225',
+	url: 'https://iamanullah.com/',
+	jobTitle: [
+		'Software Engineer',
+		'Frontend Engineer',
+		'Front-End Developer',
+		'Web Developer',
+	],
+	hasOccupation: {
+		'@type': 'Occupation',
+		name: 'Software Engineer',
+		occupationLocation: {
+			'@type': 'City',
+			name: 'Dhaka',
+		},
+		// estimatedSalary: [
+		// 	{
+		// 		'@type': 'MonetaryAmountDistribution',
+		// 		name: 'base',
+		// 		currency: 'GBP',
+		// 		duration: 'P1H',
+		// 		percentile10: '74',
+		// 		percentile25: '80',
+		// 		median: '90',
+		// 		percentile75: '100',
+		// 		percentile90: '106',
+		// 	},
+		// ],
+		description:
+			'Develops web applications and websites using JavaScript, React and HTML5.',
+		skills:
+			'HTML5, CSS, JavaScript, React,  Sass, Less, Node.js, Express.js, Gatsby, Next.js, JavaScript Frameworks, Git, Github, NPM, SEO, E-Commerce',
+		alternateName: [
+			'Frontend Developer',
+			'Full Stack Developer',
+			'Frontend Engineer',
+		],
+		responsibilities: [
+			'App Development',
+			'Web Design',
+			'Website Development',
+			'JavaScript Development',
+			'Frontend Development',
+			'Full Stack Development',
+			'Web Developer',
+			'Website Maintenance',
+		],
+	},
+	sameAs: [...online_presence],
+	brand: [
+		{
+			'@type': 'Brand',
+			name: 'Software Engineer',
+			alternateName: 'Front-End Engineer',
+		},
+		{
+			'@type': 'Brand',
+			name: '@amanullah8225',
+			alternateName: 'Aman Ullah',
+		},
+	],
+	// memberOf: [
+	// 	{
+	// 		'@type': 'Organization',
+	// 		url: 'https://creativ.agency/',
+	// 		name: 'Creativ Agency Ltd',
+	// 		alternateName: 'Creativ Advertising Agency',
+	// 	},
+	// 	{
+	// 		'@type': 'Organization',
+	// 		url: 'https://www.dennis.co.uk/',
+	// 		name: 'Dennis Digital',
+	// 		alternateName: 'Dennis',
+	// 	},
+	// ],
+	homeLocation: {
+		'@type': 'City',
+		name: 'Narayanganj',
+	},
+	// owns: {
+	// 	'@type': 'Organization',
+	// 	url: 'https://creativ.agency/',
+	// 	name: 'Creativ Agency Ltd',
+	// 	alternateName: 'Creativ Advertising Agency',
+	// 	sameAs: 'https://www.linkedin.com/company/creativ.agency',
+	// },
+	// alumniOf: {
+	// 	'@type': 'Organization',
+	// 	url: 'https://www.thespecialistworks.com/',
+	// 	name: 'The Specialist Works',
+	// },
+	nationality: {
+		'@type': 'Country',
+		name: 'Bangladesh',
+	},
+	// birthDate: '1990-11-06',
+	birthPlace: {
+		'@type': 'Place',
+		address: {
+			'@type': 'PostalAddress',
+			addressLocality: 'Bandar',
+			postalCode: '1410',
+			addressCountry: 'Bangladesh',
+		},
+	},
+	// parent: [
+	// 	{
+	// 		name: 'Norbert Herper',
+	// 		jobTitle: 'Chef',
+	// 		birthDate: '1967-08-22',
+	// 	},
+	// 	{
+	// 		name: 'Anne-Kristin Herper',
+	// 		birthDate: '1968-02-26',
+	// 	},
+	// ],
+	// spouse: {
+	// 	name: 'Cinthia Cid Paz',
+	// 	birthDate: '1990-09-19',
+	// 	nationality: {
+	// 		'@type': 'Country',
+	// 		name: 'Mexico',
+	// 	},
+	// 	birthPlace: {
+	// 		'@type': 'Place',
+	// 		address: {
+	// 			'@type': 'PostalAddress',
+	// 			addressLocality: 'Toluca',
+	// 			addressCountry: 'Mexico',
+	// 		},
+	// 	},
+	// },
+};
+const WebSiteSchema = {
+	'@context': 'http://schema.org',
+	'@type': 'WebSite',
+	name: site_base_domain,
+	alternateName: site_owner_name,
+	url: `${site_full_url}/`,
+	description:
+		'Front-End Software Engineer with a focus on React.js and TypeScript. I have more than 10 years experience working in software engineering.',
+	image: `${site_thumbnail_url}`,
+};
+export const WEBSITE_SEO_DATA = {
+	PersonSchema,
+};
+
+const CV_DATA = {
+	PersonSchema,
+};
+const WEBSITE_DATA = {
+	PersonSchema,
+};
 export default data;
