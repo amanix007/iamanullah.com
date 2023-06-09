@@ -1,6 +1,11 @@
+<<<<<<<< HEAD:src/data/aman_ullah_resume_data.js
+const aman_ullah_resume_data = {
+	potraif_favicon_image:
+		'https://iamanullah.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faman_ullah.305e0bfe.jpg&w=96&q=100',
+========
 export const site_owner_name = 'Aman Ullah';
 export const site_base_domain = 'iamanullah.com';
-export const site_full_url = `https://${site_base_domain}`;
+export const site_full_url = `https://${iamanullah.com}`;
 export const site_owner_full_techstack = [];
 export const site_owner_email = `amanullah8225@gmail.com`;
 export const site_owner_phoneNumber = `+8801680298225`;
@@ -28,25 +33,22 @@ export const online_presence = [
 	'https://www.facebook.com/@amanullah8225',
 ];
 export const title = {};
-
-const aman_ullah_resume_data = {
-	potraif_favicon_image:
-		'https://iamanullah.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faman_ullah.305e0bfe.jpg&w=96&q=100',
-
-
-
-
+const data = {
+>>>>>>>> 3a65965fd2d6639f010e4e8a5f81288919d8f119:src/data/Aman_Ullah_ALL.js
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
 	baseDomain: site_base_domain,
 	name: site_owner_name,
 	textContent: {
 		homePage: {
+<<<<<<<< HEAD:src/data/aman_ullah_resume_data.js
+			title: 'Senior Software Engineer and Consultant – Aman Ullah',
 
+========
 			title: 'Software Engineer and Consultant – Aman Ullah',
 			description:
 				'A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting.',
-
+>>>>>>>> 3a65965fd2d6639f010e4e8a5f81288919d8f119:src/data/Aman_Ullah_ALL.js
 			keywords: [
 				'Software Engineer',
 				'Aman Ullah',
@@ -170,8 +172,8 @@ const aman_ullah_resume_data = {
 			highlights: [],
 			summary: [
 				"Built Flight, Hotel, Visa, Holiday, Tour, Transfer's Services for the web platform.",
-				'Currently revamping B2C web platfrom from scratch with Nextjs & Tyescript for better user experience. ',
-				'Managing our design system with TurboRepo.',
+				'Enriched b2b platform which generate more revenue than b2c platform. Working to build B2B from scratch with React & Tyescript for better User experience.',
+				'Leading the frontend team',
 			],
 			url: 'https://www.linkedin.com/company/sharetrip/',
 			location: 'Bangladesh',
@@ -746,7 +748,9 @@ const aman_ullah_resume_data = {
 	},
 };
 
-
+<<<<<<<< HEAD:src/data/aman_ullah_resume_data.js
+export default aman_ullah_resume_data;
+========
 let PersonSchema = {
 	'@context': 'http://schema.org',
 	'@type': 'Person',
@@ -906,6 +910,5 @@ const CV_DATA = {
 const WEBSITE_DATA = {
 	PersonSchema,
 };
-
-
-export default aman_ullah_resume_data;
+export default data;
+>>>>>>>> 3a65965fd2d6639f010e4e8a5f81288919d8f119:src/data/Aman_Ullah_ALL.js

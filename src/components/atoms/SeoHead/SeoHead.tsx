@@ -1,5 +1,6 @@
+import aman_ullah_resume_data, { site_owner_name } from 'src/data/aman_ullah_resume_data';
 import Head from 'next/head';
-import aman_ullah_resume_data from 'src/data/aman_ullah_resume_data';
+
 
 export interface HeadProps {
 	title: string;
@@ -17,7 +18,7 @@ export interface HeadProps {
 const SeoHead = ({
 	title,
 	description,
-	author = 'Aman Ullah',
+	author = site_owner_name,
 	keywords,
 	image = 'https://iamanullah.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faman_ullah.305e0bfe.jpg&w=96&q=100',
 	meta,

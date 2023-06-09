@@ -8,7 +8,7 @@ export const mockJobs: IJob[] = [
 			url: 'https://www.hollandandbarrett.com/',
 			location: '',
 		},
-		jobTitle: 'Senior Software Engineer',
+		jobTitle: 'Software Engineer',
 		startDate: '2020-08-10',
 		endDate: null,
 		technologies: [
@@ -31,7 +31,7 @@ export const mockJobs: IJob[] = [
 			location: '',
 		},
 		summary: [],
-		jobTitle: 'Senior Software Engineer',
+		jobTitle: 'Software Engineer',
 		startDate: 'Aug 2020',
 		endDate: 'present',
 		technologies: [
@@ -53,7 +53,7 @@ export const mockJobs: IJob[] = [
 			location: '',
 		},
 		summary: [],
-		jobTitle: 'Senior Software Engineer',
+		jobTitle: 'Software Engineer',
 		startDate: 'Aug 2020',
 		endDate: 'present',
 		technologies: [
