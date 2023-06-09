@@ -17,7 +17,6 @@ const Job: FC<IJob> = ({
 	endDate,
 	technologies,
 	summary,
-	location
 }) => {
 	return (
 		<Box>

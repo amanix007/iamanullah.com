@@ -5,4 +5,6 @@ export const mockCompany: ICompany = {
 	url: 'https://somecompany.com/',
 	logo: '/assets/companies/dennis.svg',
 	location: '',
+	country: '',
+	city: '',
 };

@@ -33,16 +33,12 @@ const aman_ullah_resume_data = {
 	potraif_favicon_image:
 		'https://iamanullah.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faman_ullah.305e0bfe.jpg&w=96&q=100',
 
-
-
-
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
 	baseDomain: site_base_domain,
 	name: site_owner_name,
 	textContent: {
 		homePage: {
-
 			title: 'Software Engineer and Consultant – Aman Ullah',
 			description:
 				'A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting.',
@@ -746,8 +742,7 @@ const aman_ullah_resume_data = {
 	},
 };
 
-
-let PersonSchema = {
+const PersonSchema = {
 	'@context': 'http://schema.org',
 	'@type': 'Person',
 	image:
@@ -906,6 +901,5 @@ const CV_DATA = {
 const WEBSITE_DATA = {
 	PersonSchema,
 };
-
 
 export default aman_ullah_resume_data;

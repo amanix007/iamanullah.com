@@ -1,6 +1,7 @@
-import aman_ullah_resume_data, { site_owner_name } from 'src/data/aman_ullah_resume_data';
 import Head from 'next/head';
-
+import aman_ullah_resume_data, {
+	site_owner_name,
+} from 'src/data/aman_ullah_resume_data';
 
 export interface HeadProps {
 	title: string;
