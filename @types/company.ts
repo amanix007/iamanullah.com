@@ -1,6 +1,8 @@
 import { IImage } from '@types';
 
 export interface ICompany {
+	country: string;
+	city: string;
 	location: string;
 	name: string;
 	url: string;

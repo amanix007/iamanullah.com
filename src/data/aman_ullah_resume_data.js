@@ -1,12 +1,13 @@
-const data = {
+const aman_ullah_resume_data = {
+	potraif_favicon_image:
+		'https://iamanullah.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Faman_ullah.305e0bfe.jpg&w=96&q=100',
 	$schema:
 		'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
 
 	textContent: {
 		homePage: {
 			title: 'Senior Software Engineer and Consultant – Aman Ullah',
-			description:
-				'A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting.',
+
 			keywords: [
 				'Software Engineer',
 				'Aman Ullah',
@@ -29,10 +30,17 @@ const data = {
 			site: 'Senior Software Engineer and Consultant.',
 		},
 		shortDescription: {
-			site: `I am a passionate Software Engineer, specialised in front-end
-			development using React and Nextjs. As an advocate for web
-			performance and accessibility, I love to
-			create amazing web applications, Packages which is well structured and scalable.
+			// As an advocate for web
+			// performance and accessibility, I love to
+			// create amazing web applications, Packages which is well structured and scalable.
+			//I am a passionate Software Engineer, specialised in front-end
+			// development using React and Nextjs.
+			site: ` Has 5+ years of React, Nextjs development experience. 
+			Skilled in Javascript, TypeScript, Responsive & Advance Pixel Perfect UI Development and other frontend technologies.
+			Currently Focused on frontend, and looking
+		 forward to developing my career
+		 as Fullstack Developer.
+			
 			You can talk to me about`,
 		},
 		talkAbout: [
@@ -77,7 +85,7 @@ const data = {
 		summary:
 			'5+ Years of Frontend and 4+ Years in React Experience.\nSkilled in Javascript, React, Nextjs, Nodejs, Advanced UI Development\nand other frontend technologies.',
 		location: {
-			countryCode: 'US',
+			countryCode: 'BD',
 			address: '837, Lejaras, Bandar, Narayanganj, Dhaka',
 		},
 		profiles: [
@@ -97,11 +105,13 @@ const data = {
 		{
 			name: 'ShareTrip',
 			company: {
+				city: 'Dhaka',
+				country: 'Bangladesh',
 				name: 'ShareTrip',
 				logo: 'sharetrip-short',
-				url: 'asdfadsf',
+				url: 'https://sharetrip.net',
 			},
-			jobTitle: 'Frontend Engineer',
+			jobTitle: 'Frontend Engineer (Lead)',
 			startDate: '2018-08-31',
 			endDate: '',
 			technologies: [
@@ -143,12 +153,14 @@ const data = {
 		},
 		{
 			company: {
+				city: 'Birminghum',
+				country: 'UK',
 				name: 'Rasuta Energy LTD',
 				logo: 'Rasuta-Energy-LTD-short',
 				url: '#',
 			},
 			name: 'Rasuta Energy LTD',
-			jobTitle: 'Frontend Developer (Remote/Contact)',
+			jobTitle: 'Frontend Developer (Remote/Contract)',
 			startDate: '2020-01-31',
 			endDate: '2021-06-30',
 			technologies: [
@@ -177,16 +189,18 @@ const data = {
 			],
 			highlights: [],
 			summary: [
-				'Built React APP for Displaying London Air Forecast in\nGoogle Maps.\nDeveloped Mobile Apps by flutter.\nAlso Built REST API Using Nestjs',
+				'Built React APP for Displaying London Air Forecast based on Google Maps. ',
 				// 'Built React APP for Displaying London Air Forecast in Google Maps.',
-				'Developed Mobile Apps by Flutter.',
-				'Built REST API Using Nestjs.',
+				'Developed Flutter based mobile app.',
+				'Built REST Backend with Nestjs',
 			],
 			url: '',
 			location: 'Birmingham, England, United Kingdom',
 		},
 		{
 			company: {
+				city: 'Dhaka',
+				country: 'Bangladesh',
 				name: 'Pharma71',
 				logo: 'pharma71-short',
 				url: '#',
@@ -224,6 +238,8 @@ const data = {
 		},
 		{
 			company: {
+				city: 'Dhaka',
+				country: 'Bangladesh',
 				name: 'Beatnik.Digital',
 				logo: 'beatnik-short',
 				url: 'https://google.com',
@@ -253,6 +269,8 @@ const data = {
 		},
 		{
 			company: {
+				city: 'Dhaka',
+				country: 'Bangladesh',
 				name: 'Colors Of Bangladesh',
 				logo: 'cob-short',
 				url: 'https://google.com',
@@ -290,9 +308,11 @@ const data = {
 		},
 		{
 			company: {
+				city: 'Dhaka',
+				country: 'Bangladesh',
 				name: 'EvenFly',
 				logo: 'evenfly-short',
-				url: 'https://google.com',
+				url: 'https://EvenFly.com',
 			},
 			name: 'EvenFly',
 			jobTitle: 'Frontend Developer',
@@ -525,6 +545,11 @@ const data = {
 			keywords: [],
 		},
 		{
+			name: 'Recoil',
+			level: '',
+			keywords: [],
+		},
+		{
 			name: 'react',
 			level: '',
 			keywords: [],
@@ -567,6 +592,7 @@ const data = {
 				'Redux',
 				'MobX',
 				'Recoil',
+				'Pixel Perfect UI',
 				'Material UI',
 				'NodeJS',
 				'ExpressJS',
@@ -695,4 +721,4 @@ const data = {
 	},
 };
 
-export default data;
+export default aman_ullah_resume_data;

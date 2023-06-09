@@ -8,6 +8,7 @@ export interface IJob {
 	endDate: string | null;
 	technologies: string[];
 	summary: string[];
+	location: string;
 }
 
 export interface IRawJob {

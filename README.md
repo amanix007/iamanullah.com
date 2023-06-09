@@ -1,6 +1,6 @@
 # Aman Ullah Portfolio
 
-[![Aman Ullah - Software Engineer and Consultant in the UK](https://res.cloudinary.com/jacobherper/image/upload/v1641565970/website-dark-light.png)](https://jacobherper.com/)
+[![Aman Ullah - Senior Software Engineer and Consultant]
 
 This is my portfolio website, proudly built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind](https://tailwindcss.com/). The content is managed through [GraphCMS](https://graphcms.com/) and accessed via GraphQL endpoints using [Apollo Client](https://www.apollographql.com/).
 

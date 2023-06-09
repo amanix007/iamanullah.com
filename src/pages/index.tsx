@@ -17,7 +17,7 @@ import LogoTurboPack from 'Public/assets/tools/turbopack.svg';
 import LogoTurboRepo from 'Public/assets/tools/turborepo.svg';
 import LogoSvelte from 'Public/assets/tools/svelte.svg';
 import LogoVercel from 'Public/assets/tools/vercel.svg';
-import data from '../data/Aman_Ullah.resume';
+import data from '../data/aman_ullah_resume_data';
 import { WorkExperience } from 'Organisms/WorkExperience';
 import { IJob } from '@types';
 import { NextPage } from 'next';
@@ -33,7 +33,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 		<AnimatePage>
 			<SeoHead
 				title={data.textContent.homePage.title}
-				description={data.textContent.homePage.description}
+				description={data.textContent.shortDescription.site}
 				keywords={data.textContent.homePage.keywords}
 			/>
 			<section id="home" className="h-full">

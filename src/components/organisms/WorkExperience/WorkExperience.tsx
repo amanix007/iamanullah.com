@@ -13,7 +13,7 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 		<>
 			{jobs.map(
 				(
-					{ company, jobTitle, startDate, endDate, technologies, summary },
+					{ company, jobTitle, startDate, endDate, technologies, summary,location },
 					index
 				) => (
 					<div
@@ -32,6 +32,7 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 							endDate={endDate}
 							technologies={technologies}
 							summary={summary}
+							location={location}
 						/>
 					</div>
 				)

@@ -29,7 +29,7 @@ exports[`Footer renders correctly 1`] = `
         class="w-6 h-6 opacity-70 hover:opacity-100 transition"
       >
         <a
-          href="https://www.linkedin.com/in/jacobherper"
+          href="https://www.linkedin.com/in/amanullah8225"
           rel="noopener noreferrer"
           target="_blank"
           title="LinkedIn"

@@ -17,6 +17,7 @@ const Job: FC<IJob> = ({
 	endDate,
 	technologies,
 	summary,
+	location
 }) => {
 	return (
 		<Box>
@@ -47,11 +48,11 @@ const Job: FC<IJob> = ({
 								rel="noopener noreferrer"
 								className="underlined relative"
 							>
-								{company.name} - {company.location}
+								{company.name} - ({company.city}) - {company.country}
 							</a>
 						) : (
 							<>
-								{company.name}- {company.location}
+								{company.name} - ({company.city}) - {company.country}
 							</>
 						)}
 					</h4>
