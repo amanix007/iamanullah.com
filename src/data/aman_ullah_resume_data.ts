@@ -70,11 +70,7 @@ const aman_ullah_resume_data = {
 			// create amazing web applications, Packages which is well structured and scalable.
 			//I am a passionate Software Engineer, specialised in front-end
 			// development using React and Nextjs.
-			site: ` Has 5+ years of React, Nextjs development experience. 
-			Skilled in Javascript, TypeScript, Responsive & Advance Pixel Perfect UI Development and other frontend technologies.
-			Currently Focused on frontend, and looking
-		 forward to developing my career
-		 as Fullstack Developer.
+			site: ` I have over 6 years of experience in React and Next.js development, with expertise in JavaScript, TypeScript, and building responsive, advanced pixel-perfect UIs. Skilled in various frontend technologies, I am currently focused on frontend development and am eager to expand my career into full-stack development. </br>
 			
 			You can talk to me about`,
 		},
