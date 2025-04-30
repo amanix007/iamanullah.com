@@ -49,7 +49,7 @@ module.exports = {
         // "a4-col": "77.038383rem",
         "a4-col": "71.038383rem",
         // "a4-col-full": "83.350883rem",
-        "a4-col-full": "77.350883rem",
+        "a4-col-full": "80.350883rem",
 
 
       },
