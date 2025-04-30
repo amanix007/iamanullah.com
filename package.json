@@ -13,6 +13,9 @@
 		"type": "git",
 		"url": "https://github.com/amanix007/iamanullah.com"
 	},
+	"engines": {
+		"node": "22.x"
+	},
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
