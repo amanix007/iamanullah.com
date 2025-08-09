@@ -1,0 +1,743 @@
+﻿About Me and Contact
+
+
+Aman Ullah
+Frontend developer | Aspiring Full-Stack Developer
+Dhaka, Bangladesh
+Contact:
+* Email: amanullah8225@gmail.com
+* Phone: (+88) 016 80 298 225
+* Location: Dhaka, Bangladesh
+* Portfolio Website: iamanullah.com
+* LinkedIn: linkedin.com/in/amanullah8225
+* GitHub: github.com/amanix007
+Professional Summary/Objective
+
+
+Resume
+	Portfolio and Linkedin
+	V1
+	Senior Frontend Developer with 7+ years of frontend experience, including 6+ years in ReactJS and 3+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, and SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.
+
+
+	Senior Frontend Developer with 7+ years of frontend experience, including 6+ years in ReactJS and 3+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, and SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.
+	V2
+	Aman is a developer known for his creative approach and strong focus on clear communication. He loves using the Lean method and is always ready to learn new technologies. His experience ranges from working with startups and small businesses to big companies, even co-founding a startup of his own. Aman's main goal is to build reliable and easy-to-maintain systems that bring real value to any business. 
+
+
+	
+
+	V3
+	Bringing over 6 years of robust ReactJS development experience, I am adept in JavaScript, TypeScript, Next.js, and excel in advanced and pixel-perfect UI development alongside other cutting-edge frontend technologies. Currently immersed in frontend innovation, I am eagerly anticipating the evolution of my career into a full-stack developer, aiming to conquer new horizons and deliver exceptional solutions.
+
+
+	
+
+	
+
+Skills Type with Experience Year
+	Programming Language
+	Frontend
+	Testing
+	Backend
+	Other
+	* Javascript  - 7 Years
+* Typescript - 3 Years
+
+
+
+
+	1. React -  6 Years
+2. Next.js - 3 Year
+3. Redux, MobX, Recoil
+4. React Native, Flutter
+5. GraphQL - 1
+6. Material UI - 6 years
+	1. Jest - 1
+2. React Testing Library - 1
+3. Cypress - 1
+4. Playwright - 1
+	1. Node Js - 2 Year
+2. Expressjs - 2
+3. Nestjs - 1
+4. Mongodb - 1
+5. SQL - 1
+6. REST APIs - 2
+
+
+	1. HTML5 -7
+2. CSS -7
+3. Git -7
+4. Web Performance Optimization -7
+5. Responsive UI Design -7
+6. SEO -7
+	
+
+
+
+
+
+
+
+Professional Experience
+
+
+
+
+
+
+* Company  - Position - Location  - Duration
+	Tech Stack
+	  * Quantum2
+* Frontend Developer
+* Estonia, UK (Remote) 
+* Nov 2024 - Present
+
+
+	Tech Stack
+* JavaScript
+* TypeScript
+* React
+* Next.js
+* Redux
+* Node.js
+* Express.js
+* MongoDB
+* MERN
+* React-Email
+* Puppeteer
+* Playwright
+* Jest 
+	
+
+	Key Responsibilities
+	For Resume
+________________
+
+
+Bullet Points text
+* Redesigned the B2C website with Next.js, improving performance and SEO.
+* Built an internal design system to ensure UI consistency.
+* Developed a MERN-based auto-promotion mailing system and a dynamic email templating system.
+* Worked on the admin panel, creating multiple APIs for efficient data management.
+* Implemented a referendum voting system.
+* Integrated the latest HubSpot API into its backend and frontend to enhance our lead generation, track user behaviour and check ROI.
+* Ensured testing with Jest and Playwright.
+
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Portfolio and Linkedin
+* Website Redesign: Led the complete redesign of the B2C website using Next.js, improving performance and user experience.
+* Email Automation: Developed an auto-promotion mailing system using the MERN stack, enhancing customer engagement.
+* Dynamic Email Templating: Built a tag-based dynamic email template system with React-Email, streamlining marketing communications.
+* CRM Implementation: Implemented latest hubspot api in backend and and frontend of our application to manage our lead generation
+* Internal Design System: Created a scalable internal design system from scratch, ensuring UI consistency across applications.
+* SEO & Performance Optimization: Improved site performance and SEO scores, resulting in better search rankings and faster load times.
+* Referendum Voting System: Designed and implemented a secure online voting system for internal and external use.
+* Testing & Automation: Ensured application stability by implementing Jest and Playwright for automated testing.
+________________
+________________
+________________
+
+
+
+
+This Company Projects
+
+
+* Project Name 
+* Location
+* Duration
+	Stack
+	Responsibilities
+	Same as Parent
+	Same as Parent
+	Same as Parent
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+* Company 
+* Position
+* Location
+* Duration
+* Tech Stack
+	Key Responsibilities
+	  * Quantum2
+* Frontend Developer
+* Estonia, UK (Remote) 
+* Nov 2024 - Present
+
+
+Tech Stack
+* JavaScript
+* TypeScript
+* React
+* Next.js
+* Redux
+* Node.js
+* Express.js
+* MongoDB
+* MERN
+* React-Email
+* Puppeteer
+* Playwright
+* Jest 
+	For Resume
+________________
+
+
+Bullet Points text
+* Redesigned the B2C website with Next.js, improving performance and SEO.
+* Built an internal design system to ensure UI consistency.
+* Developed a MERN-based auto-promotion mailing system and a dynamic email templating system.
+* Worked on the admin panel, creating multiple APIs for efficient data management.
+* Implemented a referendum voting system.
+* Integrated the latest HubSpot API into its backend and frontend to enhance our lead generation, track user behaviour and check ROI.
+* Ensured testing with Jest and Playwright.
+
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Portfolio and Linkedin
+* Website Redesign: Led the complete redesign of the B2C website using Next.js, improving performance and user experience.
+* Email Automation: Developed an auto-promotion mailing system using the MERN stack, enhancing customer engagement.
+* Dynamic Email Templating: Built a tag-based dynamic email template system with React-Email, streamlining marketing communications.
+* CRM Implementation: Implemented latest hubspot api in backend and and frontend of our application to manage our lead generation
+* Internal Design System: Created a scalable internal design system from scratch, ensuring UI consistency across applications.
+* SEO & Performance Optimization: Improved site performance and SEO scores, resulting in better search rankings and faster load times.
+* Referendum Voting System: Designed and implemented a secure online voting system for internal and external use.
+* Testing & Automation: Ensured application stability by implementing Jest and Playwright for automated testing.
+________________
+________________
+________________
+
+
+
+
+This Company Projects
+
+
+* Project Name 
+* Location
+* Duration
+	Stack
+	Responsibilities
+	Same as Parent
+	Same as Parent
+	Same as Parent
+	
+
+
+
+
+
+
+
+
+
+	  * ShareTrip LTD, 
+* Frontend Engineer (Lead)
+* Dhaka
+* 2018 - Oct 2024
+
+
+Tech Stack
+* Javascript
+* Typescript
+* React
+* NextJS
+* Context API
+* Recoil
+* Redux
+* Mobx
+* Advanced UI
+	For Resume
+________________
+
+
+Bullet Points text
+* Helped web flight services generate 600 million BDT in monthly sales and handle 72K+ visitors per month.
+* Developed the frontend for booking services, including Flights, Hotels, Visas, Holidays, Tours, and Transfers. 
+* Redesigned and rebuilt B2C & B2B platforms 4-5 times using Next.js & TypeScript, improving UX and performance.
+* Created a dynamic coupon system for B2C users, ensuring seamless integration across services.
+* Built an extensive design system to support complex UI/UX needs across multiple booking services.
+* Mentored and led a team of 5 frontend engineers for 3 years, ensuring high-quality deliverables.
+* Helped web flight services generate 600 million BDT in monthly sales and handle 72K+ visitors per month.
+* Built an ecommerce feature with coupon support too.
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+* Helped the web flight services generate 600 million BDT in monthly sales while handling 72K+ visitors per month.
+* Developed the frontend for booking services including Flights, Hotels, Visas, Holidays, Tours, and Transfers.
+* Led the redesign and redevelopment of B2C & B2B platforms using Next.js & TypeScript, iterating 4-5 times to enhance user experience and performance.
+* Built a dynamic coupon system for B2C users, integrating seamlessly across all services.
+* Created an extensive design system to handle complex UI/UX needs for various booking services.
+* Mentored and led a team of 5 frontend engineers for 3 years, ensuring high-quality deliverables and owning multiple B2C features.
+
+
+________________
+________________
+________________
+
+
+
+
+This Company Projects
+
+
+* Project Name 
+* Location
+* Duration
+	Stack
+	Responsibilities
+	sharetrip.net
+	Same as Parent
+	Same as Parent
+	
+
+
+
+
+
+	Rasuta Energy LTD, UK
+Software Engineer
+2020 - 2021
+
+
+Tech Stack
+* JavaScript,
+* React
+* NestJS
+* MobX
+* Dart
+* Flutter
+	
+
+
+
+For Resume
+________________
+
+
+Bullet Points text
+* Developed a React application for displaying London Air Forecast on Google Maps.
+* Created a responsive UI for air quality monitoring with data visualization.
+* Built a mobile application using Flutter.
+* Constructed and integrated REST API using NestJS.
+
+________________
+
+
+________________
+
+
+________________
+
+
+Portfolio and Linkedin
+   * Developed a React application for displaying London Air Forecast on Google Maps.
+   * Created a responsive UI for air quality monitoring with data visualization.
+   * Built a mobile application using Flutter.
+   * Constructed and integrated REST API using NestJS.
+________________
+________________
+________________
+
+
+This Company Projects
+
+
+   * Project Name 
+   * Location
+   * Duration
+	Stack
+	Responsibilities
+	Airpot AQ
+2020 - 2021
+	JavaScript, React, NestJS, MobX, Dart, Flutter
+	   * Built a personal project to display air quality forecasts using ReactJS and Google Maps integration.
+   * Developed a mobile version with Flutter and set up the backend using NestJS for API management.
+   * This project honed my skills in combining frontend and backend technologies, aligning with my goal of becoming a Full Stack Developer.
+	Covid Corpus
+2020 - 2021
+	Technologies: JavaScript, React, Context API, UI
+	Covid Corpus
+	
+
+
+
+	  Pharma71, 
+Dhaka
+Software Engineer
+March 2018 - Aug 2018
+
+
+Tech Stack
+	For Resume
+________________
+
+
+Bullet Points text
+   * Build flight booking system with react redux and Antd stack
+   * Developed Pharma71 R&D Mobile app using React Native.
+
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+   * Build flight booking system with react redux and Antd stack
+   * Developed Pharma71 R&D Mobile app using React Native.
+________________
+________________
+________________
+
+
+
+
+This Company Projects
+
+
+   * Project Name 
+   * Location
+   * Duration
+	Stack
+	Responsibilities
+	Ticketchai.com
+2019 - 2020
+	JavaScript, React, Redux, React Native, Ant Design
+	   * OTA Flight Booking Platform
+	
+
+
+
+	  Beatnik
+, Dhaka
+Front End Developer
+Feb 2017 - March 2018
+
+
+
+
+Tech Stack
+	
+
+
+
+For Resume
+________________
+
+
+Bullet Points text
+   * Created wordpress and static websites for high-value local clients.
+   * Delivered responsive, high-performance websites using vanilla JavaScript.
+   * Created around 15 PSD to HTML website.
+   * Got my hand dirty with vanilla Javascript on small to enterprise level projects.
+________________
+
+
+
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+   * Created wordpress and static websites for high-value local clients.
+   * Delivered responsive, high-performance websites using vanilla JavaScript.
+   * Created around 15 PSD to HTML website.
+   * Got my hand dirty with vanila Javascript on small to enterprise level projects.
+   * ________________
+________________
+________________
+
+
+This Company Projects
+
+
+   * Project Name 
+   * Location
+   * Duration
+	Stack
+	Responsibilities
+	http://axisbd.com/ (Front End)
+	HTML,CSS, JS, JQuery, Wordpress
+	Same as Parent
+	https://bengalmeat.com/qurbani/ (Front End)
+	HTML,CSS, JS, JQuery, Wordpress
+	
+
+	http://www.i-clique.net (Frontend & Wordpress)
+	
+
+	
+
+	https://aceadvisory.biz/ (Front End)
+	HTML,CSS, JS, JQuery, Wordpress
+	
+
+		
+
+	
+
+	
+
+
+
+	  COB
+Front End Developer
+Jan 2016 - Aug 2016
+
+
+
+
+Tech Stack
+	- Designed multiple kiosk content.
+- Worked with high-value local clients.
+
+
+For Resume
+________________
+
+
+Bullet Points text
+   * ________________
+
+
+
+
+Plain text :
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+   * Created website and services for high valued local clients.
+   * Got my hand dirty with vanila Javascript on small to enterprise level projects.
+   * Improved Performance and Usability of the websites.
+   * Learned about ionic there
+   * Created website and services for high valued govt clients like army and national museum.
+   * Custom made software for touch Kiosk and dynamic banner
+   * Created Pixel Perfect UI for wordpress projects
+   * Created Custom wordpress theme
+   * built responsive and adaptive sites
+   * Also built SEO Friendly HTML Markups
+   * ________________
+________________
+________________
+
+
+This Company Projects
+
+
+   * Project Name 
+   * Location
+   * Duration
+	Stack
+	Responsibilities
+	Same as Parent
+	Same as Parent
+	Same as Parent
+	
+
+	
+
+	
+
+	
+
+
+
+	  Frontend Developer
+EvenFly - (Dhaka) - Bangladesh
+Stack: JavaScript, HTML, CSS, E-mail UI, Responsive UI
+Sep 2014 — Dec 2014
+
+
+Tech Stack
+
+
+
+
+Do not add in the Resume
+	   * Created website and services for high valued local clients.
+   * Got my hand dirty with vanila Javascript on small to enterprise level projects.
+   * Improved Performance and Usability of the websites.
+For Resume
+________________
+
+
+Bullet Points text
+   * ________________
+
+
+
+
+Plain text :
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+   * ________________
+________________
+________________
+
+
+
+
+This Company Projects
+
+
+   * Project Name 
+   * Location
+   * Duration
+	Stack
+	Responsibilities
+	Same as Parent
+	Same as Parent
+	Same as Parent
+	
+
+	
+
+	
+
+	
+
+
+
+	Pagebulb 
+Tech Stack
+	For Resume
+________________
+
+
+Bullet Points text
+   * ________________
+
+
+
+
+Plain text :
+
+________________
+
+
+________________
+
+
+________________
+
+
+
+
+Website and Linkedin
+   * Built an HTML Page Builder from scratch
+Currently Working on a PageBuilder, Which only consume html templates, make those templates editable in most of the necessary layers. Wix like editor but based on Themeforest type Templates.Still in Development Process.
+Features:
+   * Text Editing: Inline text editing features like medium editor, selected text color change
+   * Image: Images in every layer changeable, Media Gallary and Upload
+   * Custom Section: Creative Sections gets customise editing Panel.
+   * Export to Zip: Feature like exporting the edited content as a zip file, ready to put in any server. All necessary html, css, js, php file included in the zip.
+   * Section: Each Section is Re-orderable, Background changeable, and custom setting based on the component.
+   * and Functional Node Js API as backend.
+________________
+________________
+________________
+
+
+
+
+	   * Education
+Bachelor of Arts in English Victoria University of Bangladesh, 2009 - 2014
+
+
+Availability
+Full-time
+Preferred Environment
+Jira, Trello, Slack, Visual Studio Code (VS Code), Adobe Experience Design (XD), Front-end
+
+
+
+
+
+
+________________
+
+
+Future Goals
+I am focused on expanding my skills beyond frontend development and transitioning into a Full Stack Developer role. I am currently honing my backend expertise in Node.js, ExpressJS, and databases to build end-to-end web applications that deliver seamless user experiences.
+
+
+As I continue to refine my frontend expertise, my current focus is on mastering backend development. I aim to become a Full Stack Developer by gaining proficiency in Node.js, ExpressJS, and cloud technologies. This will enable me to deliver comprehensive solutions that cover both user experience and server-side logic.

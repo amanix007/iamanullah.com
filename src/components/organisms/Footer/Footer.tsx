@@ -16,11 +16,11 @@ const Footer = () => {
 						url: 'https://www.linkedin.com/in/amanullah8225',
 						icon: 'LINKEDIN',
 					},
-					{
-						name: 'Twitter',
-						url: 'https://twitter.com/amanullah8225',
-						icon: 'TWITTER',
-					},
+					// {
+					// 	name: 'Twitter',
+					// 	url: 'https://twitter.com/amanullah8225',
+					// 	icon: 'TWITTER',
+					// },
 					// {
 					// 	name: 'Instagram',
 					// 	url: 'https://www.instagram.com/@amanullah8225',
