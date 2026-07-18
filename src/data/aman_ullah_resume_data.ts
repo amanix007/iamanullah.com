@@ -95,13 +95,13 @@ const aman_ullah_resume_data = {
 	},
 	work: [
 		{
-			name: 'Quantum2',
+			name: 'Oxford Sustainable',
 			company: {
 				city: 'Remote',
 				country: 'UK',
-				name: 'Quantum2',
+				name: 'Oxford Sustainable',
 				logo: 'q2-short',
-				url: 'https://quantum2.org/',
+				url: 'https://oxfordsustainable.com/',
 			},
 			jobTitle: 'Frontend Developer',
 			startDate: '2024-11-01',
@@ -131,7 +131,7 @@ const aman_ullah_resume_data = {
 				'Integrated the latest HubSpot API into its backend and frontend to enhance lead generation, track user behaviour and check ROI.',
 				'Ensured testing with Jest and Playwright.',
 			],
-			url: 'https://quantum2.org/',
+			url: 'https://oxfordsustainable.com/',
 			location: 'UK (Remote)',
 		},
 		{

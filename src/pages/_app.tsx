@@ -10,7 +10,7 @@ import '../styles/index.css';
 import { Layout } from 'Templates/Layout';
 import Script from 'next/script';
 import { useRouter } from 'next/router';
-const GA_MEASUREMENT_ID = 'G-W9304M5RCW';
+const GA_MEASUREMENT_ID = 'G-9ZNE7235KL';
 
 // Extend the global window object to include gtag
 declare global {
