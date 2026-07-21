@@ -41,7 +41,7 @@ const aman_ullah_resume_data = {
 		homePage: {
 			title: 'Senior Frontend Developer | Aman Ullah',
 			description:
-				'Senior Frontend Developer with 7+ years of experience, including 6+ years in ReactJS and 3+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.',
+				'Senior Frontend Developer with 10+ years of experience, including 6+ years in ReactJS and 4+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.',
 			keywords: [
 				'Senior Frontend Developer',
 				'Aman Ullah',
@@ -63,7 +63,7 @@ const aman_ullah_resume_data = {
 			site: 'Senior Frontend Developer | Aspiring Full-Stack Developer',
 		},
 		shortDescription: {
-			site: `Senior Frontend Developer with 7+ years of frontend experience, including 6+ years in ReactJS and 3+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, and SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.<br/><br/>You can talk to me about`,
+			site: `Senior Frontend Developer with 10+ years of frontend experience, including 6+ years in ReactJS and 4+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, and SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.<br/><br/>You can talk to me about`,
 		},
 		talkAbout: [...site_owner_talk_about],
 	},
@@ -75,7 +75,7 @@ const aman_ullah_resume_data = {
 		phone: site_owner_phoneNumber,
 		url: site_base_domain,
 		summary:
-			'Senior Frontend Developer with 7+ years of experience, including 6+ years in ReactJS and 3+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.',
+			'Senior Frontend Developer with 10+ years of experience, including 6+ years in ReactJS and 4+ years in Next.js, plus 3 years as a Team Lead. Proficient in JavaScript, TypeScript, and advanced UI/UX development, specializing in high-performance, SEO-friendly applications. Currently expanding backend expertise in Node.js and RESTful APIs to transition into a Full Stack Developer role.',
 		location: {
 			countryCode: 'BD',
 			address: 'Dhaka, Bangladesh',
@@ -95,15 +95,15 @@ const aman_ullah_resume_data = {
 	},
 	work: [
 		{
-			name: 'Oxford Sustainable',
+			name: 'Quantum2',
 			company: {
 				city: 'Remote',
 				country: 'UK',
-				name: 'Oxford Sustainable',
+				name: 'Quantum2',
 				logo: 'q2-short',
 				url: 'https://oxfordsustainable.com/',
 			},
-			jobTitle: 'Frontend Developer',
+			jobTitle: 'Senior Frontend Developer',
 			startDate: '2024-11-01',
 			endDate: '',
 			technologies: [
@@ -299,6 +299,44 @@ const aman_ullah_resume_data = {
 			],
 			url: '',
 			location: 'Bashudhara Residential Area, Dhaka',
+		},
+	],
+	projects: [
+		{
+			id: 'quantum2-b2c',
+			slug: 'quantum2-b2c-platform-architecture',
+			title: 'Modernizing the Quantum2 B2C Platform & Internal Tools',
+			seoDescription:
+				"Discover how I redesigned Quantum2's B2C platforms and internal applications, improving performance and SEO while building a robust design system.",
+			projectUrl: 'https://quantum2.io/',
+			client: {
+				name: 'Quantum2',
+				logo: 'q2-short',
+			},
+			technologies: ['Next.js', 'React', 'Redux', 'Node.js', 'Playwright'],
+			primaryImage: '',
+			secondaryImages: ['', ''],
+			content: `<p>At Quantum2, I was tasked with a comprehensive overhaul of the B2C website and internal tools. The goal was to enhance user experience, improve SEO, and streamline our internal workflows.</p><br/>
+<p>I spearheaded the redesign using <strong>Next.js</strong> and <strong>React</strong>, which immediately yielded significant improvements in page load speeds and organic search visibility. To ensure consistency across our growing ecosystem, I architected a custom internal design system from the ground up.</p><br/>
+<p>Beyond the frontend, I developed a MERN-based auto-promotion mailing system with a dynamic email templating engine, greatly reducing the marketing team's operational overhead. I also integrated the latest HubSpot APIs to enhance lead generation tracking. Quality was ensured through rigorous end-to-end testing with Jest and Playwright, resulting in a highly stable, high-performance platform.</p>`,
+		},
+		{
+			id: 'sharetrip-booking',
+			slug: 'sharetrip-scalable-booking-platform',
+			title: "Scaling ShareTrip's Travel Booking Platforms",
+			seoDescription:
+				'Learn how I led the frontend development at ShareTrip, scaling the platform to handle 600M BDT in monthly sales and 72K+ active visitors.',
+			projectUrl: 'https://sharetrip.net',
+			client: {
+				name: 'ShareTrip LTD',
+				logo: 'sharetrip-short',
+			},
+			technologies: ['React', 'Next.js', 'TypeScript', 'Context API', 'Redux'],
+			primaryImage: '',
+			secondaryImages: ['', ''],
+			content: `<p>During my 6-year tenure at ShareTrip, the platform evolved into a massive travel ecosystem. I led a team of 5 frontend engineers in developing and scaling the frontend architecture that handled Flights, Hotels, Visas, Holidays, Tours, and Transfers.</p><br/>
+<p>The challenge was managing complex state and massive traffic—handling over <strong>72K+ monthly visitors</strong> and processing <strong>600 million BDT</strong> in monthly sales. To keep the platform fast and maintainable, I led the redesign and rebuild of both B2C and B2B platforms multiple times, ultimately migrating to <strong>Next.js</strong> and <strong>TypeScript</strong> for better UX and developer experience.</p><br/>
+<p>One of the standout features I architected was a dynamic coupon system for B2C users that seamlessly integrated across all booking services. By building an extensive, reusable design system, my team was able to rapidly ship new features without sacrificing UI quality or performance.</p>`,
 		},
 	],
 };

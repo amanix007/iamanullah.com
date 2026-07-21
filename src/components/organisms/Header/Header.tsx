@@ -17,10 +17,10 @@ export const navItems = [
 	// 	href: '/uses',
 	// 	title: 'Uses',
 	// },
-	// {
-	// 	href: '/case-studies-projects',
-	// 	title: 'Case Studies/Projects',
-	// },
+	{
+		href: '/case-studies-projects',
+		title: 'Case Studies/Projects',
+	},
 	// {
 	// 	href: '/blog',
 	// 	title: 'Blog',
