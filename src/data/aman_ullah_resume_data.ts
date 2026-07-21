@@ -95,11 +95,11 @@ const aman_ullah_resume_data = {
 	},
 	work: [
 		{
-			name: 'Quantum2',
+			name: 'Oxford Sustainable',
 			company: {
 				city: 'Remote',
 				country: 'UK',
-				name: 'Quantum2',
+				name: 'Oxford Sustainable',
 				logo: 'q2-short',
 				url: 'https://oxfordsustainable.com/',
 			},
@@ -303,20 +303,20 @@ const aman_ullah_resume_data = {
 	],
 	projects: [
 		{
-			id: 'quantum2-b2c',
-			slug: 'quantum2-b2c-platform-architecture',
-			title: 'Modernizing the Quantum2 B2C Platform & Internal Tools',
+			id: 'oxford-sustainable-b2c',
+			slug: 'oxford-sustainable-b2c-platform-architecture',
+			title: 'Modernizing the Oxford Sustainable B2C Platform & Internal Tools',
 			seoDescription:
-				"Discover how I redesigned Quantum2's B2C platforms and internal applications, improving performance and SEO while building a robust design system.",
-			projectUrl: 'https://quantum2.io/',
+				"Discover how I redesigned Oxford Sustainable's B2C platforms and internal applications, improving performance and SEO while building a robust design system.",
+			projectUrl: 'https://oxfordsustainable.com/',
 			client: {
-				name: 'Quantum2',
-				logo: 'q2-short',
+				name: 'Oxford Sustainable',
+				logo: 'oxford-sustainable',
 			},
 			technologies: ['Next.js', 'React', 'Redux', 'Node.js', 'Playwright'],
 			primaryImage: '',
 			secondaryImages: ['', ''],
-			content: `<p>At Quantum2, I was tasked with a comprehensive overhaul of the B2C website and internal tools. The goal was to enhance user experience, improve SEO, and streamline our internal workflows.</p><br/>
+			content: `<p>At Oxford Sustainable, I was tasked with a comprehensive overhaul of the B2C website and internal tools. The goal was to enhance user experience, improve SEO, and streamline our internal workflows.</p><br/>
 <p>I spearheaded the redesign using <strong>Next.js</strong> and <strong>React</strong>, which immediately yielded significant improvements in page load speeds and organic search visibility. To ensure consistency across our growing ecosystem, I architected a custom internal design system from the ground up.</p><br/>
 <p>Beyond the frontend, I developed a MERN-based auto-promotion mailing system with a dynamic email templating engine, greatly reducing the marketing team's operational overhead. I also integrated the latest HubSpot APIs to enhance lead generation tracking. Quality was ensured through rigorous end-to-end testing with Jest and Playwright, resulting in a highly stable, high-performance platform.</p>`,
 		},
