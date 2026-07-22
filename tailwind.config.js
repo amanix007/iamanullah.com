@@ -40,7 +40,7 @@ module.exports = {
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
-						color: theme('colors.grey.900'),
+						'--tw-prose-body': theme('colors.grey.900'),
 						a: {
 							color: theme('colors.grey.900'),
 							'&:hover': {
@@ -59,9 +59,9 @@ module.exports = {
 						'blockquote p:last-of-type::after': false,
 					},
 				},
-				dark: {
+				invert: {
 					css: {
-						color: theme('colors.grey.200'),
+						'--tw-prose-body': theme('colors.grey.200'),
 						a: {
 							color: theme('colors.blue.400'),
 							'&:hover': {
@@ -102,9 +102,6 @@ module.exports = {
 				},
 			}),
 		},
-	},
-	variants: {
-		typography: ['dark'],
 	},
 	plugins: [require('@tailwindcss/typography')],
 };
