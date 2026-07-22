@@ -15,23 +15,24 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 	return (
 		<Box>
 			<div className="flex gap-4 items-center">
-				{/* {institute.logo && (
+				{institute.logo && (
 					<Image
-						src={institute.logo}
+						src={`/assets/education/${institute.logo}.png`}
 						alt={institute.name}
 						width={64}
 						height={64}
 						className="rounded-md"
 					/>
-				)} */}
+				)}
 				<div className="w-full mb-2">
-					<div className="flex justify-between">
+					<div className="flex flex-col-reverse md:flex-row justify-between">
 						<h3 className="font-bold">{course}</h3>
-						<span>{format(new Date(date), 'MMM yyyy')}</span>
+						<span className="text-sm md:text-base">
+							{format(new Date(date), 'MMM yyyy')}
+						</span>
 					</div>
 					<h4>
-						{/* {institute} */}
-						{/* {institute.url ? (
+						{institute.url ? (
 							<a
 								href={institute.url}
 								target="_blank"
@@ -42,12 +43,14 @@ const School = ({ institute, course, date, technologies }: SchoolProps) => {
 							</a>
 						) : (
 							<>{institute.name}</>
-						)} */}
+						)}
 					</h4>
-					<p className="text-sm">
-						<strong>Course Contents: </strong>
-						{technologies.join(', ')}
-					</p>
+					{technologies.length > 0 && (
+						<p className="text-sm">
+							<strong>Course Contents: </strong>
+							{technologies.join(', ')}
+						</p>
+					)}
 				</div>
 			</div>
 		</Box>

@@ -25,6 +25,8 @@ const moduleExports = {
 			'via.placeholder.com',
 			'picsum.photos',
 		],
+		dangerouslyAllowSVG: true,
+		contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
 	},
 };
 

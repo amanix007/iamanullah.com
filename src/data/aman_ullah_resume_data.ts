@@ -15,7 +15,9 @@ export const site_owner_talk_about = [
 	'Material UI',
 	'Node.js',
 	'Express.js',
+	'MongoDB',
 	'RESTful APIs',
+	'Playwright',
 	'HTML5',
 	'CSS',
 	'Web Performance',
@@ -100,7 +102,7 @@ const aman_ullah_resume_data = {
 				city: 'Remote',
 				country: 'UK',
 				name: 'Oxford Sustainable',
-				logo: 'q2-short',
+				logo: 'oxford-sustainable',
 				url: 'https://oxfordsustainable.com/',
 			},
 			jobTitle: 'Senior Frontend Developer',
@@ -301,6 +303,50 @@ const aman_ullah_resume_data = {
 			location: 'Bashudhara Residential Area, Dhaka',
 		},
 	],
+	education: [
+		{
+			institute: {
+				name: 'Victoria University of Bangladesh',
+				city: '',
+				country: 'Bangladesh',
+				location: 'Bangladesh',
+				url: '',
+				logo: '',
+			},
+			course: 'Bachelor of Arts (B.A.), English Language and Literature',
+			area: 'Bachelor of Arts (B.A.), English Language and Literature (2009 – 2014)',
+			date: '2014-01-01',
+			technologies: [],
+		},
+		{
+			institute: {
+				name: 'Narayanganj College and University',
+				city: '',
+				country: 'Bangladesh',
+				location: 'Bangladesh',
+				url: '',
+				logo: '',
+			},
+			course: 'H.S.C, Business/Commerce',
+			area: 'H.S.C, Business/Commerce (2007 – 2009)',
+			date: '2009-01-01',
+			technologies: [],
+		},
+		{
+			institute: {
+				name: 'B M Union High School',
+				city: '',
+				country: 'Bangladesh',
+				location: 'Bangladesh',
+				url: '',
+				logo: '',
+			},
+			course: 'S.S.C, Commerce',
+			area: 'S.S.C, Commerce (2005 – 2007)',
+			date: '2007-01-01',
+			technologies: [],
+		},
+	],
 	projects: [
 		{
 			id: 'oxford-sustainable-b2c',
@@ -314,8 +360,11 @@ const aman_ullah_resume_data = {
 				logo: 'oxford-sustainable',
 			},
 			technologies: ['Next.js', 'React', 'Redux', 'Node.js', 'Playwright'],
-			primaryImage: '',
-			secondaryImages: ['', ''],
+			primaryImage: '/assets/case-studies/oxford-sustainable-main.svg',
+			secondaryImages: [
+				'/assets/case-studies/oxford-sustainable-top.svg',
+				'/assets/case-studies/oxford-sustainable-bottom.svg',
+			],
 			content: `<p>At Oxford Sustainable, I was tasked with a comprehensive overhaul of the B2C website and internal tools. The goal was to enhance user experience, improve SEO, and streamline our internal workflows.</p><br/>
 <p>I spearheaded the redesign using <strong>Next.js</strong> and <strong>React</strong>, which immediately yielded significant improvements in page load speeds and organic search visibility. To ensure consistency across our growing ecosystem, I architected a custom internal design system from the ground up.</p><br/>
 <p>Beyond the frontend, I developed a MERN-based auto-promotion mailing system with a dynamic email templating engine, greatly reducing the marketing team's operational overhead. I also integrated the latest HubSpot APIs to enhance lead generation tracking. Quality was ensured through rigorous end-to-end testing with Jest and Playwright, resulting in a highly stable, high-performance platform.</p>`,
@@ -332,8 +381,11 @@ const aman_ullah_resume_data = {
 				logo: 'sharetrip-short',
 			},
 			technologies: ['React', 'Next.js', 'TypeScript', 'Context API', 'Redux'],
-			primaryImage: '',
-			secondaryImages: ['', ''],
+			primaryImage: '/assets/case-studies/sharetrip-main.svg',
+			secondaryImages: [
+				'/assets/case-studies/sharetrip-top.svg',
+				'/assets/case-studies/sharetrip-bottom.svg',
+			],
 			content: `<p>During my 6-year tenure at ShareTrip, the platform evolved into a massive travel ecosystem. I led a team of 5 frontend engineers in developing and scaling the frontend architecture that handled Flights, Hotels, Visas, Holidays, Tours, and Transfers.</p><br/>
 <p>The challenge was managing complex state and massive traffic—handling over <strong>72K+ monthly visitors</strong> and processing <strong>600 million BDT</strong> in monthly sales. To keep the platform fast and maintainable, I led the redesign and rebuild of both B2C and B2B platforms multiple times, ultimately migrating to <strong>Next.js</strong> and <strong>TypeScript</strong> for better UX and developer experience.</p><br/>
 <p>One of the standout features I architected was a dynamic coupon system for B2C users that seamlessly integrated across all booking services. By building an extensive, reusable design system, my team was able to rapidly ship new features without sacrificing UI quality or performance.</p>`,

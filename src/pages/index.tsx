@@ -118,7 +118,6 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 					<div className="flex justify-center mt-8">
 						<Button
 							href="mailto:amanullah8225@gmail.com"
-							download={true}
 							className="group flex gap-2 whitespace-nowrap mr-4"
 						>
 							{/* <div className="w-6 text-blue-500 group-hover:text-off-white dark:text-purple-500">
@@ -130,7 +129,7 @@ const IndexPage: NextPage<IProps> = ({ jobs }) => {
 						</Button>
 						<span> </span>
 						<Button
-							href="/Aman Ullah-7-Year-Resume.pdf"
+							href="/Aman-Ullah-Resume.pdf"
 							download={true}
 							className="group flex gap-2 whitespace-nowrap"
 						>

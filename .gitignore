@@ -40,3 +40,6 @@ yarn-error.log*
 tsconfig.tsbuildinfo
 
 storybook-static
+
+# personal documents (not for the repo)
+Profile (1).pdf

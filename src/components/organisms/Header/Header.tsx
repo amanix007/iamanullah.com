@@ -9,10 +9,10 @@ import { ThemeToggle } from 'Atoms/ThemeToggle';
 import { useRouter } from 'next/router';
 
 export const navItems = [
-	// {
-	// 	href: '/about',
-	// 	title: 'About',
-	// },
+	{
+		href: '/about',
+		title: 'About',
+	},
 	// {
 	// 	href: '/uses',
 	// 	title: 'Uses',

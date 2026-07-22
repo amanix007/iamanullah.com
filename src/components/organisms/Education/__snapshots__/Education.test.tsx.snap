@@ -38,14 +38,14 @@ exports[`Education renders correctly 1`] = `
           class="w-full mb-2"
         >
           <div
-            class="flex justify-between"
+            class="flex flex-col-reverse md:flex-row justify-between"
           >
             <h3
               class="font-bold"
+            />
+            <span
+              class="text-sm md:text-base"
             >
-              Some course
-            </h3>
-            <span>
               Jan 2020
             </span>
           </div>
@@ -59,14 +59,6 @@ exports[`Education renders correctly 1`] = `
               Some Company
             </a>
           </h4>
-          <p
-            class="text-sm"
-          >
-            <strong>
-              Course Contents: 
-            </strong>
-            TypeScript, React
-          </p>
         </div>
       </div>
     </div>
